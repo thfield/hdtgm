@@ -141,6 +141,50 @@ $(document).ready(function ( ) {
 		//for(var i = catCounts.length;  i-- ;){
 		//	if (catCounts[i].count < 2 ) catCounts.splice(i, 1);
 		//}
+		console.log(catCounts);
+		return catCounts;
+	}
+
+	function countGenres(database, category) {
+		var catCounts = [];
+		for (var movie = 0; movie < database.length; movie++) {
+		  var cat =[];
+		  cat = database[movie].genres;
+			for (var genre in cat) {
+		    var currentCat, title = database[movie].title ;
+			 	currentCat = cat[genre];
+		    var foundIndex = -1 ;
+		    $.map(catCounts, function(obj, index) {
+			    if(obj.category === currentCat) { foundIndex = index };	 
+			  });
+			  (foundIndex != -1) ? (catCounts[foundIndex].count += 1, catCounts[foundIndex].titles.push(title) )
+			  									 : catCounts.push({ category: currentCat, count: 1, titles: [title] });
+		  }
+		}
+		//for(var i = catCounts.length;  i-- ;){
+		//	if (catCounts[i].count < 2 ) catCounts.splice(i, 1);
+		//}
+		return catCounts;
+	}
+
+	function countRated(database, category) {
+		var catCounts = [];
+		for (var movie = 0; movie < database.length; movie++) {
+		  var cat = database[movie].rated;
+			
+		    var currentCat = cat, 
+		    		title = database[movie].title ;
+		    var foundIndex = -1 ;
+		    $.map(catCounts, function(obj, index) {
+			    if(obj.category === currentCat) { foundIndex = index };	 
+			  });
+			  (foundIndex != -1) ? (catCounts[foundIndex].count += 1, catCounts[foundIndex].titles.push(title) )
+			  									 : catCounts.push({ category: currentCat, count: 1, titles: [title] });
+		  
+		}
+		//for(var i = catCounts.length;  i-- ;){
+		//	if (catCounts[i].count < 2 ) catCounts.splice(i, 1);
+		//}
 		return catCounts;
 	}
 
@@ -203,17 +247,95 @@ $(document).ready(function ( ) {
 	      .text(function(d) { return d; });
 	}
 
+	function drawBar(data, cssTarget){
+		//console.log(data);
+		var margin = {top: 20, right: 20, bottom: 120, left: 40},
+    width = 1200 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+		var x = d3.scale.ordinal()
+		    .rangeRoundBands([0, width], .15, 1);
+
+		var y = d3.scale.linear()
+		    .range([height, 0]);
+
+		var xAxis = d3.svg.axis()
+		    .scale(x)
+		    .orient("bottom");
+
+		var yAxis = d3.svg.axis()
+		    .scale(y)
+		    .orient("left");
+
+		var tip = d3.tip()
+			  .attr('class', 'd3-tip')
+			  .offset([-10, 0])
+			  .html(function(d) {
+			    return "<span>" + d.count + " HDTGM movies in " +d.category+": </span>"+  d.titles;
+				})
+			  ;	
+
+		var svg = d3.select(cssTarget).append("svg")
+		    .attr("width", width + margin.left + margin.right)
+		    .attr("height", height + margin.top + margin.bottom)
+		  .append("g")
+		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		
+		svg.call(tip);
+
+		//x.domain(data.sort(function(a, b) { return b.count - a.count; })	
+		x.domain(data.sort(function(a, b) { return a.category - b.category; })	
+	        			 .map(function(d) { return d.category; }));
+	  y.domain([0, d3.max(data, function(d) { return d.count; })]);
+
+	  svg.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	      .selectAll("text")  
+            .style("text-anchor", "start")
+            .attr("dx", ".8em")
+            .attr("dy", "-.15em")
+            .attr("transform", function(d) {
+                return "rotate(65)" 
+            });
+
+	  svg.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+	    .append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("y", 6)
+	      .attr("dy", ".71em")
+	      .style("text-anchor", "end")
+	      .text("HDTGM Movies");
+
+	  svg.selectAll(".bar")
+	      .data(data)
+	    .enter().append("rect")
+	      .attr("class", "bar")
+	      .attr("x", function(d) { return x(d.category); })
+	      .attr("width", x.rangeBand())
+	      .attr("y", function(d) { return y(d.count); })
+	      .attr("height", function(d) { return height - y(d.count); })
+	      .on('mouseover', tip.show)
+      	.on('mouseout', tip.hide);
+	}
+
 	$.getJSON("data/list_actors.json", function(alldata) {
 	 	
 	 	//console.log(countCategory(alldata, "rated"));
 
-		
+		/*
 		drawCastCrew(countCrew(alldata, "actors"), ".drawActors");
 		drawCastCrew(countCrew(alldata, "directors"), ".drawDirectors");
 		drawCastCrew(countCrew(alldata, "writers"), ".drawWriters");
+		*/
+		drawPie(countRated(alldata, "rated"), ".drawRatings");
 		
-		drawPie(countCategory(alldata, "rated"), ".drawRatings");
-
+		drawBar(countGenres(alldata, "genres"), ".drawGenres");
+		
+		drawBar(countCategory(alldata, "year"), ".drawYear");
 
 	});
 
