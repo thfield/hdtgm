@@ -326,11 +326,11 @@ $(document).ready(function ( ) {
 	 	
 	 	//console.log(countCategory(alldata, "rated"));
 
-		/*
+		
 		drawCastCrew(countCrew(alldata, "actors"), ".drawActors");
 		drawCastCrew(countCrew(alldata, "directors"), ".drawDirectors");
 		drawCastCrew(countCrew(alldata, "writers"), ".drawWriters");
-		*/
+		
 		drawPie(countRated(alldata, "rated"), ".drawRatings");
 		
 		drawBar(countGenres(alldata, "genres"), ".drawGenres");
