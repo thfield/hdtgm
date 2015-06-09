@@ -321,20 +321,97 @@ $(document).ready(function ( ) {
 	      .on('mouseover', tip.show)
       	.on('mouseout', tip.hide);
 	}
+  
+  function drawHBar(data, cssTarget){
+    //console.log(data);
+    var margin = {top: 20, right: 10, bottom: 20, left: 140},
+    width = 400 - margin.left - margin.right,
+    height = 1000 - margin.top - margin.bottom;
+
+    var x = d3.scale.linear()
+        .range([0, width]);
+
+    var y = d3.scale.ordinal()
+        .rangeRoundBands([0, height], .15, 1);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+
+    var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        //.offset([-10, 0])
+        .direction("e")
+        .html(function(d) {
+          return "<span>"+ d.name +" has been in " + d.count + " HDTGM movies: </span>" +  d.titles;
+        })
+        ; 
+
+    var svg = d3.select(cssTarget).append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+    svg.call(tip);
+
+    x.domain([0, d3.max(data, function(d) { return d.count; })]);
+    y.domain(data.sort(function(a, b) { return b.count - a.count; })  
+                 .map(function(d) { return d.name; }));
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+        .selectAll("text")  
+            .style("text-anchor", "middle")
+            .attr("dy", "1em")
+            ;
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+   var bars = svg.selectAll(".bar")
+        .data(data)
+      .enter().append("g");
+
+      bars.append("rect")
+        .attr("class", "bar")
+        .attr("x", 0)
+        .attr("width", function(d) { return x(d.count); })
+        .attr("y", function(d) { return y(d.name); })
+        .attr("height", y.rangeBand() )
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+ 
+ 			/*bars.append("text")
+	      .attr("transform", "translate(" + 0 + "," + y.rangeBand() + ")")
+	      //.attr("class", "label")
+	      .attr("y", function(d) { return y(d.name); })
+	      .attr("x", 0)
+	      .attr("font-size", function(d){ return y.rangeBand()+ "px"})
+	      .style("text-anchor", "start")
+	      .text(function(d) { return d.name; });   
+			*/
+  }
 
 	$.getJSON("data/list_actors.json", function(alldata) {
 	 	
 	 	//console.log(countCategory(alldata, "rated"));
 
 		
+		//drawHBar(countCrew(alldata, "actors"), ".drawActors");
 		drawCastCrew(countCrew(alldata, "actors"), ".drawActors");
 		drawCastCrew(countCrew(alldata, "directors"), ".drawDirectors");
 		drawCastCrew(countCrew(alldata, "writers"), ".drawWriters");
 		
 		drawPie(countRated(alldata, "rated"), ".drawRatings");
-		
-		drawBar(countGenres(alldata, "genres"), ".drawGenres");
-		
+		drawBar(countGenres(alldata, "genres"), ".drawGenres");		
 		drawBar(countCategory(alldata, "year"), ".drawYear");
 
 	});

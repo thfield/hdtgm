@@ -194,7 +194,8 @@ Episode,Film or episode title,Guest(s),Release date,Notes
 92.5,Minisode 92.5,—,"September 2, 2014",
 93,Staying Alive,Katie Dippold,"September 9, 2014",Live episode
 93.5,Minisode 93.5,—,"September 16, 2014",
-94,Glitter,Adam Scott and Casey Wilson,"September 23, 2014",Live episode
+94,Glitter,Adam Scott,"September 23, 2014",Live episode
+94,Glitter,Casey Wilson,"September 23, 2014",Live episode
 94.5,Minisode 94.5,—,"September 30, 2014",
 95,Temptation: Confessions of a Marriage Counselor,Katie Aselton,"October 8, 2014",
 95.5,Minisode 95.5,—,"October 15, 2014",
@@ -202,9 +203,11 @@ Episode,Film or episode title,Guest(s),Release date,Notes
 96.5,Minisode 96.5,—,"October 31, 2014",
 97,Rhinestone,Matt L. Jones,"November 7, 2014",Live episode
 97.5,Minisode 97.5,—,"November 14, 2014",
-98,LOL,Rob Huebel and Chelsea Peretti,"November 21, 2014",Live episode
+98,LOL,Rob Huebel,"November 21, 2014",Live episode
+98,LOL,Chelsea Peretti,"November 21, 2014",Live episode
 98.5,Minisode 98.5,—,"December 5, 2014",
-99,A View to a Kill,Matt Gourley and Matt Mira,"December 12, 2014","Live episode, crossover with the James Bondingpodcast[5]"
+99,A View to a Kill,Matt Gourley,"December 12, 2014","Live episode, crossover with the James Bonding podcast[5]"
+99,A View to a Kill,Matt Mira,"December 12, 2014","Live episode, crossover with the James Bonding podcast[5]"
 99.5,Minisode 99.5,June Diane Raphael,"December 22, 2014",
 100,Junior,—,"December 26, 2014",
 100.5,Minisode 100.5,-,"January 6, 2015",
@@ -213,3 +216,16 @@ Episode,Film or episode title,Guest(s),Release date,Notes
 102,Tango and Cash,Nick Kroll,"January 23, 2015",
 102.5,Minisode 102.5,-,"January 31, 2015",
 103,Zardoz,Brett Gelman,"February 13, 2015",
+104,Zardoz 2,June Diane Raphael,"February 25, 2015",Continuation on Zardoz; first second episode of a movie previously done
+104.5,Minisode 104.5,-,"February 27, 2015",
+105,Safe Haven,Eliza Skinner,"March 6, 2015",
+105,Safe Haven,Jordan Rubin,"March 6, 2015",
+105.5,Minisode 105.5,-,"March 13, 2015",
+106,Deep Blue Sea,Evan Goldberg,"March 20, 2015",Live episode
+106,Deep Blue Sea,Paul F. Tompkins,"March 20, 2015",Live episode
+107,Lake Placid,Paul F. Tompkins,"April 3, 2015",Live episode
+107,Lake Placid,Nate Corddry,"April 3, 2015",Live episode
+108,Con Air,Seth Grahame-Smith,"April 17, 2015",Live episode
+109,Face Off,Randall Park,"May 1, 2015",Live episode
+110,The Island of Dr. Moreau,Alex Fernie,"May 15, 2015"
+111,Hercules in New York,Abbi Jacobson,"May 29, 2015",Live episode
