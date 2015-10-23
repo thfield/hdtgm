@@ -14787,6 +14787,1518 @@
       "nameId": "nm0936254"
     }],
     "year": "1969"
+  }, {
+    "actors": [{
+      "actorId": "nm0005109",
+      "actorName": "Mila Kunis",
+      "character": "Jupiter Jones",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0381970",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BODQyNTQyNzY4MV5BMl5BanBnXkFtZTcwODg5MDA3MQ@@._V1_UY44_CR2,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005109"
+    }, {
+      "actorId": "nm1475594",
+      "actorName": "Channing Tatum",
+      "character": "Caine Wise",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0381971",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc4OTI3Mzg2Nl5BMl5BanBnXkFtZTcwMDAxNTU3OA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1475594"
+    }, {
+      "actorId": "nm0000293",
+      "actorName": "Sean Bean",
+      "character": "Stinger Apini",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0463315",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkzMzc4MDk5OF5BMl5BanBnXkFtZTcwODg3MjUxNw@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000293"
+    }, {
+      "actorId": "nm1519666",
+      "actorName": "Eddie Redmayne",
+      "character": "Balem Abrasax",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0452111",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTU0MjEyNzQyM15BMl5BanBnXkFtZTcwMTc4ODUxOQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1519666"
+    }, {
+      "actorId": "nm3150488",
+      "actorName": "Douglas Booth",
+      "character": "Titus Abrasax",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0501339",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY4MzUzMjM2Nl5BMl5BanBnXkFtZTgwNDcxMTUyMjE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm3150488"
+    }, {
+      "actorId": "nm3095562",
+      "actorName": "Tuppence Middleton",
+      "character": "Kalique Abrasax",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0501373",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNDcyNTI1NDA4MV5BMl5BanBnXkFtZTgwNDE2NTA4NjE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm3095562"
+    }, {
+      "actorId": "nm0025458",
+      "actorName": "Nikki Amuka-Bird",
+      "character": "Diomika Tsing",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0510960",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjM2MDE0MTkyN15BMl5BanBnXkFtZTgwNTEyNjg2MjE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0025458"
+    }, {
+      "actorId": "nm1268047",
+      "actorName": "Christina Cole",
+      "character": "Gemma Chatterjee",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0510961",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjI5OTc1NTU4OV5BMl5BanBnXkFtZTgwMzk0NjA3MDE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1268047"
+    }, {
+      "actorId": "nm5260828",
+      "actorName": "Nicholas A. Newman",
+      "character": "Nesh",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0510962",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjAxMzAwOTMxMl5BMl5BanBnXkFtZTcwNzg2Mjc1OQ@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm5260828"
+    }, {
+      "actorId": "nm0863130",
+      "actorName": "Ramon Tikaram",
+      "character": "Phylo Percadium",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjIxOTU4MzI3Ml5BMl5BanBnXkFtZTcwNDAwMDAyOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0863130"
+    }, {
+      "actorId": "nm0048159",
+      "actorName": "Ariyon Bakare",
+      "character": "Greeghan",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTk5MTMwMjY1N15BMl5BanBnXkFtZTgwNDU1MjU0MjE@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0048159"
+    }, {
+      "actorId": "nm0448204",
+      "actorName": "Maria Doyle Kennedy",
+      "character": "Aleksa",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE4OTk5ODgyNl5BMl5BanBnXkFtZTYwOTExNzI1._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0448204"
+    }, {
+      "actorId": "nm0831880",
+      "actorName": "Frog Stone",
+      "character": "Aunt Nino",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0831880"
+    }, {
+      "actorId": "nm2916966",
+      "actorName": "David Ajala",
+      "character": "Ibis",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0501390",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMzE3ODA2Njg5MV5BMl5BanBnXkFtZTcwNDUxMzAyOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm2916966"
+    }, {
+      "actorId": "nm0046277",
+      "actorName": "Doona Bae",
+      "character": "Razo",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNDA3Njc0MzQ4Ml5BMl5BanBnXkFtZTcwMjM4MTA2OA@@._V1_UY44_CR17,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0046277"
+    }],
+    "countries": ["USA", "UK", "Australia"],
+    "directors": [{
+      "name": "Andy Wachowski",
+      "nameId": "nm0905152"
+    }, {
+      "name": "Lana Wachowski",
+      "nameId": "nm0905154"
+    }],
+    "filmingLocations": ["Chicago", "Illinois", "USA"],
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "idIMDB": "tt1617661",
+    "languages": ["English", "Russian"],
+    "metascore": "40/100",
+    "originalTitle": "",
+    "plot": "Jupiter Jones was born under a night sky, with signs predicting that she was destined for great things. Now grown, Jupiter dreams of the stars but wakes up to the cold reality of a job cleaning other people's houses and an endless run of bad breaks. Only when Caine Wise, a genetically engineered ex-military hunter, arrives on Earth to track her down does Jupiter begin to glimpse the fate that has been waiting for her all along - her genetic signature marks her as next in line for an extraordinary inheritance that could alter the balance of the cosmos.",
+    "rated": "PG-13",
+    "rating": "5.5",
+    "releaseDate": "20150206",
+    "runtime": ["127 min"],
+    "simplePlot": "A young woman discovers her destiny as an heiress of intergalactic nobility and must fight to protect the inhabitants of Earth from an ancient and destructive industry.",
+    "title": "Jupiter Ascending",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt1617661",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTQyNzk2MjA2NF5BMl5BanBnXkFtZTgwMjEwNzk3MjE@._V1_SX214_AL_.jpg",
+    "votes": "112,882",
+    "writers": [{
+      "name": "Andy Wachowski",
+      "nameId": "nm0905152"
+    }, {
+      "name": "Lana Wachowski",
+      "nameId": "nm0905154"
+    }],
+    "year": "2015"
+  }, {
+    "actors": [{
+      "actorId": "nm0876958",
+      "actorName": "Paige Turco",
+      "character": "April O'Neil",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000495",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc0NzUzNDkzNV5BMl5BanBnXkFtZTcwMTUxMjQ5Mw@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0876958"
+    }, {
+      "actorId": "nm0001831",
+      "actorName": "David Warner",
+      "character": "Professor Jordon Perry",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037973",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTAwMzg2Nzg1MjheQTJeQWpwZ15BbWU3MDk4Nzg0Mzg@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001831"
+    }, {
+      "actorId": "nm0803145",
+      "actorName": "Michelan Sisti",
+      "character": "Michaelangelo / Soho Man",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000650",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0803145"
+    }, {
+      "actorId": "nm0863208",
+      "actorName": "Leif Tilden",
+      "character": "Donatello / Foot #3",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000638",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjQxNjgxODQyMF5BMl5BanBnXkFtZTgwMTY1OTQyNDE@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0863208"
+    }, {
+      "actorId": "nm0003702",
+      "actorName": "Kenn Scott",
+      "character": "Raphael",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000631",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0003702"
+    }, {
+      "actorId": "nm0143791",
+      "actorName": "Mark Caso",
+      "character": "Leonardo / News Room Staff",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000614",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTMwNTYxOTYwN15BMl5BanBnXkFtZTcwMTY3NDY3NA@@._V1_UY44_CR16,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0143791"
+    }, {
+      "actorId": "nm0165159",
+      "actorName": "Kevin Clash",
+      "character": "Splinter",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000543",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE0OTAyMTE2N15BMl5BanBnXkFtZTcwNTY0MTUzNA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0165159"
+    }, {
+      "actorId": "nm0721205",
+      "actorName": "Ernie Reyes Jr.",
+      "character": "Keno",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000606",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTQyNTg0NzUwMV5BMl5BanBnXkFtZTgwMzc1MjI0NDE@._V1_UY44_CR8,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0721205"
+    }, {
+      "actorId": "nm0154236",
+      "actorName": "François Chau",
+      "character": "Shredder",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000586",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTM4MjM5MjIzMV5BMl5BanBnXkFtZTcwMjgxOTU1OA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0154236"
+    }, {
+      "actorId": "nm0643164",
+      "actorName": "Toshishiro Obata",
+      "character": "Tatsu",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000725",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0643164"
+    }, {
+      "actorId": "nm0785435",
+      "actorName": "Raymond Serra",
+      "character": "Chief Sterns",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000730",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0785435"
+    }, {
+      "actorId": "nm0320169",
+      "actorName": "Mark Ginther",
+      "character": "Rahzar",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037972",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTAxMDUyNzY0NzleQTJeQWpwZ15BbWU3MDc1NzU0MDM@._V1_UY44_CR4,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0320169"
+    }, {
+      "actorId": "nm0116972",
+      "actorName": "Kurt Bryant",
+      "character": "Tokka",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037974",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0116972"
+    }, {
+      "actorId": "nm0621760",
+      "actorName": "Kevin Nash",
+      "character": "Super Shredder",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0000586",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY5OTgyODA5MF5BMl5BanBnXkFtZTcwMDI4OTMwOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0621760"
+    }, {
+      "actorId": "nm0023727",
+      "actorName": "Joseph Amodei",
+      "character": "Parlor Owner",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0023727"
+    }],
+    "countries": ["USA", "Hong Kong"],
+    "directors": [{
+      "name": "Michael Pressman",
+      "nameId": "nm0696309"
+    }],
+    "filmingLocations": ["Brooklyn", "New York City", "New York", "USA"],
+    "genres": ["Action", "Adventure", "Comedy", "Family", "Sci-Fi"],
+    "idIMDB": "tt0103060",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "The turtles find out where the Ooze, the substance which made them mutate, came from. Unfortunately Shredder learns about it too, and uses it to enhance himself. So the turtles have to prove again who's the better ninja fighter.",
+    "rated": "PG",
+    "rating": "6.0",
+    "releaseDate": "19910322",
+    "runtime": ["88 min"],
+    "simplePlot": "The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to create an army of new mutants.",
+    "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0103060",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTkyNTE4NzQwMF5BMl5BanBnXkFtZTcwNjU4MDIyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+    "votes": "40,603",
+    "writers": [{
+      "name": "Kevin Eastman",
+      "nameId": "nm0247653"
+    }, {
+      "name": "Peter Laird",
+      "nameId": "nm0481990"
+    }],
+    "year": "1991"
+  }, {
+    "actors": [{
+      "actorId": "nm0000633",
+      "actorName": "Tom Selleck",
+      "character": "Jack Ramsay",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0109201",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTQyMjQzODMzNF5BMl5BanBnXkFtZTcwMjE0NTM1Mw@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000633"
+    }, {
+      "actorId": "nm0722407",
+      "actorName": "Cynthia Rhodes",
+      "character": "Thompson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0109204",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTM5MjI5NDYwMl5BMl5BanBnXkFtZTcwMjgwNjUwOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0722407"
+    }, {
+      "actorId": "nm0005430",
+      "actorName": "Gene Simmons",
+      "character": "Luther",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0109205",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkwODk2ODM4MV5BMl5BanBnXkFtZTYwNjk1NjMz._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005430"
+    }, {
+      "actorId": "nm0000263",
+      "actorName": "Kirstie Alley",
+      "character": "Jackie",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc4Nzk3NTU4MV5BMl5BanBnXkFtZTYwNjQ4ODI4._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000263"
+    }, {
+      "actorId": "nm0789976",
+      "actorName": "Stan Shaw",
+      "character": "Marvin",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjA3MjM5NzEwMV5BMl5BanBnXkFtZTcwMjYyMDkwMw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0789976"
+    }, {
+      "actorId": "nm0047265",
+      "actorName": "G.W. Bailey",
+      "character": "Chief",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY4MDMzNzU5N15BMl5BanBnXkFtZTcwNTY2MDc1Mw@@._V1_UY44_CR2,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0047265"
+    }, {
+      "actorId": "nm0186160",
+      "actorName": "Joey Cramer",
+      "character": "Bobby Ramsay",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTg0MjE5NDk5OV5BMl5BanBnXkFtZTcwMzEyOTgwMw@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0186160"
+    }, {
+      "actorId": "nm0611889",
+      "actorName": "Chris Mulkey",
+      "character": "Johnson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY0NzIyNjg1Ml5BMl5BanBnXkFtZTgwNzE2MzAyNjE@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0611889"
+    }, {
+      "actorId": "nm0551926",
+      "actorName": "Anne-Marie Martin",
+      "character": "Hooker at Bar",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0551926"
+    }, {
+      "actorId": "nm0151033",
+      "actorName": "Michael Paul Chan",
+      "character": "Wilson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNDA3NTIxMzIyNF5BMl5BanBnXkFtZTcwMjM4NzcyNg@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0151033"
+    }, {
+      "actorId": "nm0635705",
+      "actorName": "Elizabeth Norment",
+      "character": "Miss Shields",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0635705"
+    }, {
+      "actorId": "nm0853617",
+      "actorName": "Carol Teasdale",
+      "character": "Sally",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0853617"
+    }, {
+      "actorId": "nm0203768",
+      "actorName": "Jackson Davies",
+      "character": "Inspector",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0203768"
+    }, {
+      "actorId": "nm0061356",
+      "actorName": "Paul Batten",
+      "character": "Harry",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0061356"
+    }, {
+      "actorId": "nm0161075",
+      "actorName": "Babs Chula",
+      "character": "Construction Foreperson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTU2MjEzOTc1OV5BMl5BanBnXkFtZTcwNTA5MTcxNQ@@._V1_UY44_CR13,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0161075"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "Michael Crichton",
+      "nameId": "nm0000341"
+    }],
+    "filmingLocations": ["Moses Lake", "Washington", "USA"],
+    "genres": ["Action", "Crime", "Sci-Fi", "Thriller"],
+    "idIMDB": "tt0088024",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "In the near future, a police officer specializes in malfunctioning robots. When a robot turns out to have been programmed to kill, he begins to uncover a homicidal plot to create killer robots... and his son becomes a target.",
+    "rated": "PG-13",
+    "rating": "5.9",
+    "releaseDate": "19841214",
+    "runtime": ["99 min"],
+    "simplePlot": "In the near future, a police officer specializes in malfunctioning robots. When a robot turns out to have been programmed to kill, he begins to uncover a homicidal plot to create killer robots... and his son becomes a target.",
+    "title": "Runaway",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0088024",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTIyMDE3Mjc2MF5BMl5BanBnXkFtZTcwNDQwMzcxMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+    "votes": "8,052",
+    "writers": [{
+      "name": "Michael Crichton",
+      "nameId": "nm0000341"
+    }],
+    "year": "1984"
+  }, {
+    "actors": [{
+      "actorId": "nm0005575",
+      "actorName": "Ian Ziering",
+      "character": "Fin Shepard",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0446333",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTg1MjM1MjUxMV5BMl5BanBnXkFtZTgwNzYxMjgzMzE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005575"
+    }, {
+      "actorId": "nm0005346",
+      "actorName": "Tara Reid",
+      "character": "April Shepard",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0407646",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNjkwNDgyMzMxNl5BMl5BanBnXkFtZTcwMDYyMjc0OQ@@._V1_UY44_CR4,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005346"
+    }, {
+      "actorId": "nm2628561",
+      "actorName": "Cassie Scerbo",
+      "character": "Nova Clarke",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0407647",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjIwMjY3NzM0Ml5BMl5BanBnXkFtZTgwMTI0NDk1NjE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm2628561"
+    }, {
+      "actorId": "nm0005260",
+      "actorName": "Frankie Muniz",
+      "character": "Lucas Stevens",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0515291",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkxNTU1Njk5MV5BMl5BanBnXkFtZTcwODUzNjQ0Nw@@._V1_UY44_CR2,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005260"
+    }, {
+      "actorId": "nm1707018",
+      "actorName": "Ryan Newman",
+      "character": "Claudia Shepard",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0508065",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjIxMjE0Mzk3Ml5BMl5BanBnXkFtZTgwMzc0NjY0MzE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1707018"
+    }, {
+      "actorId": "nm0001327",
+      "actorName": "David Hasselhoff",
+      "character": "Gilbert Grayson Shepard",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0515077",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI5OTI0NDkxOF5BMl5BanBnXkFtZTcwMjExMTQxMw@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001327"
+    }, {
+      "actorId": "nm1171860",
+      "actorName": "Mark Cuban",
+      "character": "President Marcus Robbins",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BODQ0NzQ2MDU1OV5BMl5BanBnXkFtZTYwMzQ2Mzgz._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1171860"
+    }, {
+      "actorId": "nm0000137",
+      "actorName": "Bo Derek",
+      "character": "May Wexler",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjI1MDc5MDkyNF5BMl5BanBnXkFtZTgwODg0MTYwNDE@._V1_UY44_CR18,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000137"
+    }, {
+      "actorId": "nm4417992",
+      "actorName": "Blair Fowler",
+      "character": "Jess",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjM2ODgyODgwN15BMl5BanBnXkFtZTgwNzc2MTg0MjE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm4417992"
+    }, {
+      "actorId": "nm0935498",
+      "actorName": "Michael Winslow",
+      "character": "Brian 'Jonesy' Jones",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0515285",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTE5MTk2MTk0NF5BMl5BanBnXkFyZXN1bWU@._V1_UY44_CR10,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0935498"
+    }, {
+      "actorId": "nm4338976",
+      "actorName": "Jack Griffo",
+      "character": "Billy",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTEyNjExNDgxMzReQTJeQWpwZ15BbWU4MDk4MTQ3MjIx._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm4338976"
+    }, {
+      "actorId": "nm2214833",
+      "actorName": "Michelle Beadle",
+      "character": "Agent Argyle",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm2214833"
+    }, {
+      "actorId": "nm1666212",
+      "actorName": "Ne-Yo",
+      "character": "Agent Devoreaux",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTMxMDQ1Mjc5MV5BMl5BanBnXkFtZTcwMzQ5OTQzMw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1666212"
+    }, {
+      "actorId": "nm0410171",
+      "actorName": "Chris Jericho",
+      "character": "Bruce the Ride Attendant",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE3NzkzMTM1NV5BMl5BanBnXkFtZTcwNzAyNTY0Mg@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0410171"
+    }, {
+      "actorId": "nm0005209",
+      "actorName": "Mark McGrath",
+      "character": "Martin Brody",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0478990",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTIwMzM0MDY0M15BMl5BanBnXkFtZTcwMzc2OTcyMQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005209"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "Anthony C. Ferrante",
+      "nameId": "nm0003116"
+    }],
+    "filmingLocations": ["Orlando", "Florida", "USA"],
+    "genres": ["Horror", "Sci-Fi"],
+    "idIMDB": "tt3899796",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "When Fin and April go to Florida for the summer vacation, strong winds and lots of rain comes to Florida and a Sharknado comes and destroyes Florida. The Sharknado goes to Washington D.C. and sharks falling from the sky. It's up to Fin and April to stop the Sharknado the third time.",
+    "rated": "TV-14",
+    "rating": "4.4",
+    "releaseDate": "20150722",
+    "runtime": ["88 min"],
+    "simplePlot": "A monstrous tornado unleashes ravenous sharks from Washington, D.C., all the way down to Orlando, Florida.",
+    "title": "Sharknado 3: Oh Hell No!",
+    "type": "TV Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt3899796",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTc5MDUzNzQzOF5BMl5BanBnXkFtZTgwMDg4NTYzNTE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+    "votes": "4,400",
+    "writers": [{
+      "name": "Thunder Levin",
+      "nameId": "nm0505736"
+    }],
+    "year": "2015"
+  }, {
+    "actors": [{
+      "actorId": "nm0001569",
+      "actorName": "Chuck Norris",
+      "character": "Jake Wilder",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0123221",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTU4NjY3NzgyM15BMl5BanBnXkFtZTcwODI4OTEzNA@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001569"
+    }, {
+      "actorId": "nm0724247",
+      "actorName": "Michele Lamar Richards",
+      "character": "Savannah Boyette",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0285925",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjA0NDg3MTIzM15BMl5BanBnXkFtZTYwMDQ0Nzk2._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0724247"
+    }, {
+      "actorId": "nm0902184",
+      "actorName": "Erik von Detten",
+      "character": "Matthew Swanson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0285926",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjAzMzMxOTgxMl5BMl5BanBnXkFtZTcwOTUzMjkyMQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0902184"
+    }, {
+      "actorId": "nm0137142",
+      "actorName": "Carmine Caridi",
+      "character": "Lou Swanson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0137142"
+    }, {
+      "actorId": "nm0476226",
+      "actorName": "Clyde Kusatsu",
+      "character": "Ken Callahan",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTU0MjQ1NzYxOF5BMl5BanBnXkFtZTcwMDQ2Nzg1MQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0476226"
+    }, {
+      "actorId": "nm0943280",
+      "actorName": "Kai Wulff",
+      "character": "Otto Dietrich",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0285947",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0943280"
+    }, {
+      "actorId": "nm0601747",
+      "actorName": "Peter Savard Moore",
+      "character": "Karl Koller",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0285948",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0601747"
+    }, {
+      "actorId": "nm0000961",
+      "actorName": "Timothy Bottoms",
+      "character": "Nelson Houseman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0286018",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI0MzU5MDEyNl5BMl5BanBnXkFtZTYwMjc1Mjg3._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000961"
+    }, {
+      "actorId": "nm0005331",
+      "actorName": "Francesco Quinn",
+      "character": "Mark Curtains",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0286042",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkxOTA5NzY0MF5BMl5BanBnXkFtZTcwNDEzNTMwMg@@._V1_UY44_CR2,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005331"
+    }, {
+      "actorId": "nm0912113",
+      "actorName": "Herta Ware",
+      "character": "Wilder's Mother",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0912113"
+    }, {
+      "actorId": "nm0449900",
+      "actorName": "John Kerry",
+      "character": "Commander West",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTUzMDU4MTg1NF5BMl5BanBnXkFtZTgwMjA4NTU1NjE@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0449900"
+    }, {
+      "actorId": "nm0062302",
+      "actorName": "Hank Baumert",
+      "character": "Masked Firefighter / Border Patrol Officer",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0285938",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0062302"
+    }, {
+      "actorId": "nm0145617",
+      "actorName": "Linda Castro",
+      "character": "Paramedic",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0286049",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE3NDY3MzczNV5BMl5BanBnXkFtZTgwOTM2MDc4NjE@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0145617"
+    }, {
+      "actorId": "nm0803164",
+      "actorName": "John Sistrunk",
+      "character": "Driver at Border",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0286050",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0803164"
+    }, {
+      "actorId": "nm0060394",
+      "actorName": "Bob Bastanchury",
+      "character": "Passenger",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0286057",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0060394"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "Aaron Norris",
+      "nameId": "nm0635760"
+    }],
+    "filmingLocations": ["San Diego", "California", "USA"],
+    "genres": ["Action", "Comedy", "Crime", "Thriller"],
+    "idIMDB": "tt0114697",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "With his cop companion shot and killed by terrorists, Reno The Dog pairs up with tough cop Jake in thwarting the criminal organization.",
+    "rated": "PG-13",
+    "rating": "4.0",
+    "releaseDate": "19950428",
+    "runtime": ["86 min"],
+    "simplePlot": "With his cop companion shot and killed by terrorists, Reno The Dog pairs up with tough cop Jake in thwarting the criminal organization.",
+    "title": "Top Dog",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0114697",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjAyMTMxNjgwMV5BMl5BanBnXkFtZTcwNjkzNTc0MQ@@._V1_SY317_CR3,0,214,317_AL_.jpg",
+    "votes": "2,306",
+    "writers": [{
+      "name": "Aaron Norris",
+      "nameId": "nm0635760"
+    }, {
+      "name": "Tim Grayem",
+      "nameId": "nm0337049"
+    }],
+    "year": "1995"
+  }, {
+    "actors": [{
+      "actorId": "nm0000155",
+      "actorName": "Whoopi Goldberg",
+      "character": "Katie Coltrane",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0247027",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE4ODgzNjQwOV5BMl5BanBnXkFtZTYwNzczNzc0._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000155"
+    }, {
+      "actorId": "nm0000090",
+      "actorName": "Armin Mueller-Stahl",
+      "character": "Elizar Kane",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTM3MTI3NTk0OF5BMl5BanBnXkFtZTcwOTE3MDAxMw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000090"
+    }, {
+      "actorId": "nm0484460",
+      "actorName": "Juliet Landau",
+      "character": "Dr. Veronica Shade",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BOTM0OTIyMTEyMF5BMl5BanBnXkFtZTcwMjE5MDI2Mw@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0484460"
+    }, {
+      "actorId": "nm0001069",
+      "actorName": "Bud Cort",
+      "character": "Spinner",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTMwMzM3MDc4OF5BMl5BanBnXkFtZTcwMjU4OTQ4Mg@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001069"
+    }, {
+      "actorId": "nm0570385",
+      "actorName": "Stephen McHattie",
+      "character": "Edge",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI3MTM2NTQzN15BMl5BanBnXkFyZXN1bWU@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0570385"
+    }, {
+      "actorId": "nm0627624",
+      "actorName": "George Newbern",
+      "character": "Theodore Rex",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0247026",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMzc3NjczOTg4NV5BMl5BanBnXkFtZTgwODk3MDI5MTE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0627624"
+    }, {
+      "actorId": "nm0001406",
+      "actorName": "Carol Kane",
+      "character": "Molly Rex",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc3NDgzMzMwOV5BMl5BanBnXkFtZTYwNjg1NzY0._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001406"
+    }, {
+      "actorId": "nm0745780",
+      "actorName": "Richard Roundtree",
+      "character": "Commissioner Lynch",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjAzMjIzOTUyMV5BMl5BanBnXkFtZTYwMjA2MDQ3._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0745780"
+    }, {
+      "actorId": "nm0727051",
+      "actorName": "Jack Riley",
+      "character": "Alaric",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY5NzY1NjEyM15BMl5BanBnXkFtZTYwNTUwMTQ0._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0727051"
+    }, {
+      "actorId": "nm0533380",
+      "actorName": "Peter Mackenzie",
+      "character": "Alex Summers",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTMwODU2MDE5MF5BMl5BanBnXkFtZTcwNzcyMzc4MQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0533380"
+    }, {
+      "actorId": "nm0198072",
+      "actorName": "Joe Dallesandro",
+      "character": "Rogan",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc2MjUzMjQzMV5BMl5BanBnXkFtZTcwNzI3OTgwMw@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0198072"
+    }, {
+      "actorId": "nm0426362",
+      "actorName": "Tony T. Johnson",
+      "character": "Sebastian",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0426362"
+    }, {
+      "actorId": "nm0168736",
+      "actorName": "Susie Coelho",
+      "character": "Dr. Armitraj",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0168736"
+    }, {
+      "actorId": "nm0477286",
+      "actorName": "Peter Kwong",
+      "character": "Toymaker",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTgwNzE3Mzg4MV5BMl5BanBnXkFtZTYwNzQ1Njcy._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0477286"
+    }, {
+      "actorId": "nm0224971",
+      "actorName": "Edith Diaz",
+      "character": "Ella",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0224971"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "Jonathan R. Betuel",
+      "nameId": "nm0079471"
+    }],
+    "filmingLocations": [],
+    "genres": ["Action", "Comedy", "Family", "Sci-Fi"],
+    "idIMDB": "tt0114658",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "In a future town a female police detective (Whoopi Goldberg) has to colaborate with Theodore Rex, a genetically generated Tyrannosaurus Rex, in order to investigate the murder of another dinosaure.",
+    "rated": "PG",
+    "rating": "2.4",
+    "releaseDate": "19960626",
+    "runtime": ["92 min"],
+    "simplePlot": "In an alternate futuristic society, a tough female police detective is paired with a talking dinosaur to find the killer of dinosaurs and other prehistoric animals leading them to a mad scientist bent on creating a new Armageddon.",
+    "title": "Theodore Rex",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0114658",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTc3Mjk4MDgzMl5BMl5BanBnXkFtZTcwODE4MTYyMQ@@._V1_SY316_CR1,0,214,316_AL_.jpg",
+    "votes": "2,782",
+    "writers": [{
+      "name": "Jonathan R. Betuel",
+      "nameId": "nm0079471"
+    }],
+    "year": "1995"
+  }, {
+    "actors": [{
+      "actorId": "nm0004874",
+      "actorName": "Vin Diesel",
+      "character": "Dominic Toretto",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0004171",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjExNzA4MDYxN15BMl5BanBnXkFtZTcwOTI1MDAxOQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0004874"
+    }, {
+      "actorId": "nm0908094",
+      "actorName": "Paul Walker",
+      "character": "Brian O'Conner",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0004175",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjIwODc0OTk2Nl5BMl5BanBnXkFtZTcwOTQ5MDA0Mg@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0908094"
+    }, {
+      "actorId": "nm0005458",
+      "actorName": "Jason Statham",
+      "character": "Deckard Shaw",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0503802",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkxMzk2MDkwOV5BMl5BanBnXkFtZTcwMDAxODQwMg@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0005458"
+    }, {
+      "actorId": "nm0735442",
+      "actorName": "Michelle Rodriguez",
+      "character": "Letty",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0004176",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNDEzODQ1OTA0Nl5BMl5BanBnXkFtZTcwNjU2MDc1Mw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0735442"
+    }, {
+      "actorId": "nm0108287",
+      "actorName": "Jordana Brewster",
+      "character": "Mia",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0380086",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTUwNDA5NjkzNV5BMl5BanBnXkFtZTgwMjY2MTI2MzE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0108287"
+    }, {
+      "actorId": "nm0879085",
+      "actorName": "Tyrese Gibson",
+      "character": "Roman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0089116",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjA3MjU1NzY4OF5BMl5BanBnXkFtZTgwMzU3MDQxNTE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0879085"
+    }, {
+      "actorId": "nm0524839",
+      "actorName": "Ludacris",
+      "character": "Tej",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0004183",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjEwMTU3MDkzOF5BMl5BanBnXkFtZTcwNzc2NjM5MQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0524839"
+    }, {
+      "actorId": "nm0425005",
+      "actorName": "Dwayne Johnson",
+      "character": "Hobbs",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0247678",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkyNDQ3NzAxM15BMl5BanBnXkFtZTgwODIwMTQ0NTE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0425005"
+    }, {
+      "actorId": "nm0085407",
+      "actorName": "Lucas Black",
+      "character": "Sean Boswell",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0004177",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNTAzNjEyMTkxN15BMl5BanBnXkFtZTcwMzc3NTc4Nw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0085407"
+    }, {
+      "actorId": "nm0000621",
+      "actorName": "Kurt Russell",
+      "character": "Mr. Nobody",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0506851",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTk3MjkxNzQwMV5BMl5BanBnXkFtZTYwNDk4ODM1._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000621"
+    }, {
+      "actorId": "nm2812026",
+      "actorName": "Nathalie Emmanuel",
+      "character": "Ramsey",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0434999",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTM3NzQ4ODU0M15BMl5BanBnXkFtZTcwMDM4Njg3OA@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm2812026"
+    }, {
+      "actorId": "nm0665235",
+      "actorName": "Elsa Pataky",
+      "character": "Elena",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0213711",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTgyNTgzMTk3M15BMl5BanBnXkFtZTcwNTM0NDQyOQ@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0665235"
+    }, {
+      "actorId": "nm2933757",
+      "actorName": "Gal Gadot",
+      "character": "Gisele",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0139733",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTg3NjcxMDY3Ml5BMl5BanBnXkFtZTcwODIxNTU1OQ@@._V1_UY44_CR6,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm2933757"
+    }, {
+      "actorId": "nm1383586",
+      "actorName": "John Brotherton",
+      "character": "Sheppard",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0509232",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTQ1NTc5NTAwOV5BMl5BanBnXkFtZTgwNTg5NjE4NTE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1383586"
+    }, {
+      "actorId": "nm1812656",
+      "actorName": "Luke Evans",
+      "character": "Owen Shaw",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0385677",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNDU1MDI2OTUyNV5BMl5BanBnXkFtZTcwNTA1OTY1OQ@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm1812656"
+    }],
+    "countries": ["USA", "Japan", "China"],
+    "directors": [{
+      "name": "James Wan",
+      "nameId": "nm1490123"
+    }],
+    "filmingLocations": ["Abu Dhabi", "United Arab Emirates"],
+    "genres": ["Action", "Crime", "Thriller"],
+    "idIMDB": "tt2820852",
+    "languages": ["English"],
+    "metascore": "67/100",
+    "originalTitle": "Furious Seven",
+    "plot": "Dominic and his crew thought they'd left the criminal mercenary life behind. They'd defeated international terrorist Owen Shaw and went their separate ways. But now, Shaw's brother, Deckard Shaw, is out killing the crew one by one for revenge. Worse, a Somalian terrorist called Jakarde and a shady government official called \"Mr. Nobody\" are both competing to steal a computer terrorism program called \"God's Eye,\" that can turn any technological device into a weapon. Torretto must reconvene with his team to stop Shaw and retrieve the God's Eye program while caught in a power struggle between the terrorist and the United States government.",
+    "rated": "PG-13",
+    "rating": "7.4",
+    "releaseDate": "20150403",
+    "runtime": ["137 min"],
+    "simplePlot": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+    "title": "Furious 7",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt2820852",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg",
+    "votes": "227,754",
+    "writers": [{
+      "name": "Chris Morgan",
+      "nameId": "nm0604555"
+    }, {
+      "name": "Gary Scott Thompson",
+      "nameId": "nm0860155"
+    }],
+    "year": "2015"
+  }, {
+    "actors": [{
+      "actorId": "nm0000389",
+      "actorName": "Emilio Estevez",
+      "character": "Bill Robinson",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0020183",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BOTY2MDM3MDc1OV5BMl5BanBnXkFtZTcwMTQxOTkyOA@@._V1._SX2000_CR15,79,609,709_UY44_CR3,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000389"
+    }, {
+      "actorId": "nm0385757",
+      "actorName": "Pat Hingle",
+      "character": "Hendershot",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0020185",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY0MTc2MzU3NV5BMl5BanBnXkFtZTcwMzgyNTgxMw@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0385757"
+    }, {
+      "actorId": "nm0364307",
+      "actorName": "Laura Harrington",
+      "character": "Brett",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0020186",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0364307"
+    }, {
+      "actorId": "nm0810379",
+      "actorName": "Yeardley Smith",
+      "character": "Connie",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0020184",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTQ2MjY2NDA4OF5BMl5BanBnXkFtZTgwMDA2NjQ1MjE@._V1_UY44_CR11,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0810379"
+    }, {
+      "actorId": "nm0795072",
+      "actorName": "John Short",
+      "character": "Curt",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0020188",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0795072"
+    }, {
+      "actorId": "nm0568375",
+      "actorName": "Ellen McElduff",
+      "character": "Wanda June",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0020187",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0568375"
+    }, {
+      "actorId": "nm0703862",
+      "actorName": "J.C. Quinn",
+      "character": "Duncan",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0457641",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0703862"
+    }, {
+      "actorId": "nm0613997",
+      "actorName": "Christopher Murney",
+      "character": "Camp Loman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0457640",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTU2NjY2Nzk1N15BMl5BanBnXkFtZTcwMDMzMTkyNA@@._V1_UY44_CR15,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0613997"
+    }, {
+      "actorId": "nm0334077",
+      "actorName": "Holter Graham",
+      "character": "Deke",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0457639",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE5MjQzODUwN15BMl5BanBnXkFtZTcwMjk2OTYyMQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0334077"
+    }, {
+      "actorId": "nm0265670",
+      "actorName": "Frankie Faison",
+      "character": "Handy",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0457638",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTk1Mjk3NDg5MV5BMl5BanBnXkFtZTcwNzI2ODQ1MQ@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0265670"
+    }, {
+      "actorId": "nm0589089",
+      "actorName": "Pat Miller",
+      "character": "Joe",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0506504",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0589089"
+    }, {
+      "actorId": "nm0134378",
+      "actorName": "Jack Canon",
+      "character": "Max",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0134378"
+    }, {
+      "actorId": "nm0068049",
+      "actorName": "Barry Bell",
+      "character": "Steve",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0506505",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0068049"
+    }, {
+      "actorId": "nm0105406",
+      "actorName": "John Brasington",
+      "character": "Frank",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0105406"
+    }, {
+      "actorId": "nm0272459",
+      "actorName": "J. Don Ferguson",
+      "character": "Andy",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0272459"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "Stephen King",
+      "nameId": "nm0000175"
+    }],
+    "filmingLocations": ["Ontario", "Canada"],
+    "genres": ["Action", "Comedy", "Horror", "Sci-Fi"],
+    "idIMDB": "tt0091499",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "When Earth passes through the tail of Rea-M rogue comet, the machines come to life and threaten and kill the mankind. A group of survivors is under siege of fierce trucks in the Dixie Boy truck stop in a gas station and they have to fight to survive.",
+    "rated": "R",
+    "rating": "5.4",
+    "releaseDate": "19860725",
+    "runtime": ["97 min"],
+    "simplePlot": "A group of people try to survive when machines start to come alive and become homicidal.",
+    "title": "Maximum Overdrive",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0091499",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BNTAxNTUxODk3Ml5BMl5BanBnXkFtZTcwODQ5ODYyMQ@@._V1_SY317_CR4,0,214,317_AL_.jpg",
+    "votes": "21,881",
+    "writers": [{
+      "name": "Stephen King",
+      "nameId": "nm0000175"
+    }, {
+      "name": "Stephen King",
+      "nameId": "nm0000175"
+    }],
+    "year": "1986"
+  }, {
+    "actors": [{
+      "actorId": "nm0000185",
+      "actorName": "Dolph Lundgren",
+      "character": "He-Man",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0029480",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTUyMzEyNzU4NV5BMl5BanBnXkFtZTgwNDg2MzM3MDE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000185"
+    }, {
+      "actorId": "nm0001449",
+      "actorName": "Frank Langella",
+      "character": "Skeletor",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0028099",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI5MDc0NTI3Nl5BMl5BanBnXkFtZTcwMTgzNjQzMg@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001449"
+    }, {
+      "actorId": "nm0001236",
+      "actorName": "Meg Foster",
+      "character": "Evil-Lyn",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037501",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTU3NzE4ODQ4NF5BMl5BanBnXkFtZTcwOTc2MzcxOA@@._V1_UY44_CR3,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001236"
+    }, {
+      "actorId": "nm0000863",
+      "actorName": "Billy Barty",
+      "character": "Gwildor",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037502",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI1MDk2NjM5M15BMl5BanBnXkFtZTYwMzg5NTM2._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000863"
+    }, {
+      "actorId": "nm0001073",
+      "actorName": "Courteney Cox",
+      "character": "Julie Winston",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0123420",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTA4OTczNDExNDNeQTJeQWpwZ15BbWU3MDUyNTIzMTM@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001073"
+    }, {
+      "actorId": "nm0000536",
+      "actorName": "Robert Duncan McNeill",
+      "character": "Kevin Corrigan",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0123421",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTgzMzIwMTMzN15BMl5BanBnXkFtZTcwMjQ4OTc0OQ@@._V1_UY44_CR24,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000536"
+    }, {
+      "actorId": "nm0194230",
+      "actorName": "Jon Cypher",
+      "character": "Duncan",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037510",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTMwOTU3NDE2NV5BMl5BanBnXkFtZTcwNTc5Mjc3NA@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0194230"
+    }, {
+      "actorId": "nm0001210",
+      "actorName": "Chelsea Field",
+      "character": "Teela",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037503",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjI5MTEwOTEyOV5BMl5BanBnXkFtZTcwNjAxNTA4NQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0001210"
+    }, {
+      "actorId": "nm0866055",
+      "actorName": "James Tolkan",
+      "character": "Detective Lubic",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0203985",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc0NDcyNzQ4Nl5BMl5BanBnXkFtZTcwMjExNTgyMQ@@._V1_UY44_CR15,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0866055"
+    }, {
+      "actorId": "nm0681943",
+      "actorName": "Christina Pickles",
+      "character": "Sorceress of Castle Grayskull",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037508",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNjU5MzE5NDQ1MF5BMl5BanBnXkFtZTcwMTA0NjYxOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0681943"
+    }, {
+      "actorId": "nm0141019",
+      "actorName": "Tony Carroll",
+      "character": "Beastman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037512",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0141019"
+    }, {
+      "actorId": "nm0006542",
+      "actorName": "Pons Maar",
+      "character": "Saurod",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0037504",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMzg1OTQ4OTQ0M15BMl5BanBnXkFtZTYwNDEzNTAz._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0006542"
+    }, {
+      "actorId": "nm0209815",
+      "actorName": "Anthony De Longis",
+      "character": "Blade",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0203987",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMzAzODQ1OTY1Ml5BMl5BanBnXkFtZTcwOTg5NjU4MQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0209815"
+    }, {
+      "actorId": "nm0869951",
+      "actorName": "Robert Towers",
+      "character": "Karg",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com/character/ch0203986",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0869951"
+    }, {
+      "actorId": "nm0515225",
+      "actorName": "Barry Livingston",
+      "character": "Charlie",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkzMjE3NzgwMF5BMl5BanBnXkFtZTcwMDU2MTQzOQ@@._V1_UY44_CR11,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0515225"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "Gary Goddard",
+      "nameId": "nm0323787"
+    }],
+    "filmingLocations": ["California", "USA"],
+    "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi", "Thriller"],
+    "idIMDB": "tt0093507",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "The planet Eternia is in the aftermath of Skeletor's war on Castle Greyskull, which he has won after seizing Greyskull and the surrounding city using the Cosmic Key developed by the Thenorian locksmith Gwildor. The Sorceress is Skeletor's prisoner and he begins draining her powers as he waits for Eternia's moon to align with the Great Eye of the Universe that will bestow god-like powers upon him. Once on Earth, He-Man and company team up with two teenagers as they attempt to find the key and return home. However, the dark lord Skeletor and his vile minions are soon hot on their trail as they bring He-Man back alive.",
+    "rated": "PG",
+    "rating": "5.3",
+    "releaseDate": "19870807",
+    "runtime": ["106 min"],
+    "simplePlot": "A prince turned warrior named He-Man battles against the dark lord Skeletor on the planet Eternia. He-Man and his comrades arrive on Earth and discover two teenage lovers to find the magical Cosmic Key.",
+    "title": "Masters of the Universe",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0093507",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTMzMTc2MDc1M15BMl5BanBnXkFtZTcwMTM4ODAwMQ@@._V1_SY317_CR8,0,214,317_AL_.jpg",
+    "votes": "26,171",
+    "writers": [{
+      "name": "David Odell",
+      "nameId": "nm0643973"
+    }],
+    "year": "1987"
+  }, {
+    "actors": [{
+      "actorId": "nm0255036",
+      "actorName": "Ramey Ellis",
+      "character": "City News Receptionist",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0255036"
+    }, {
+      "actorId": "nm0069608",
+      "actorName": "Alma Beltran",
+      "character": "Grieving Woman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI3NjA3MTY5OF5BMl5BanBnXkFtZTcwMTQxNjQ4Mg@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0069608"
+    }, {
+      "actorId": "nm0910112",
+      "actorName": "Perla Walter",
+      "character": "Grieving Woman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0910112"
+    }, {
+      "actorId": "nm0603740",
+      "actorName": "Gina Morelli",
+      "character": "Grieving Woman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0603740"
+    }, {
+      "actorId": "nm0000237",
+      "actorName": "John Travolta",
+      "character": "Adam",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTUwNjQ0ODkxN15BMl5BanBnXkFtZTcwMDc5NjQwNw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0000237"
+    }, {
+      "actorId": "nm0621049",
+      "actorName": "John Napierala",
+      "character": "City News Editor",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0621049"
+    }, {
+      "actorId": "nm0317369",
+      "actorName": "Stefan Gierasch",
+      "character": "Charlie",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BOTU2NDk5OTc2NV5BMl5BanBnXkFtZTcwMjkwMjYxOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0317369"
+    }, {
+      "actorId": "nm0921048",
+      "actorName": "Jann Wenner",
+      "character": "Mark Roth",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTk4MDkzNjkwNF5BMl5BanBnXkFtZTcwMTgxNjY3MQ@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0921048"
+    }, {
+      "actorId": "nm0211408",
+      "actorName": "Anne De Salvo",
+      "character": "Frankie",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTYwMDU3OTIyNV5BMl5BanBnXkFtZTgwMTMxNjQzMDE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0211408"
+    }, {
+      "actorId": "nm0217103",
+      "actorName": "Philippe Delgrange",
+      "character": "Maitre d' in New York",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0217103"
+    }, {
+      "actorId": "nm0771680",
+      "actorName": "Tom Schiller",
+      "character": "Carly Simon's Friend",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0771680"
+    }, {
+      "actorId": "nm0448824",
+      "actorName": "Paul Kent",
+      "character": "Judge",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "",
+      "urlProfile": "http://www.imdb.com/name/nm0448824"
+    }, {
+      "actorId": "nm0242886",
+      "actorName": "Murphy Dunne",
+      "character": "Peckerman",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMzYyMzY1OTQ3MV5BMl5BanBnXkFtZTgwNTc4ODUxMTE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0242886"
+    }, {
+      "actorId": "nm0920564",
+      "actorName": "Kenneth Welsh",
+      "character": "Joe McKenzie",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjEzMjY5MDQzNF5BMl5BanBnXkFtZTgwNTQ2MzMyMDE@._V1_UX32_CR0,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0920564"
+    }, {
+      "actorId": "nm0489644",
+      "actorName": "Michael Laskin",
+      "character": "Government Prosecutor",
+      "main": true,
+      "urlCharacter": "http://www.imdb.com",
+      "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkwOTcxNDc0NF5BMl5BanBnXkFtZTcwMTg3NTczMg@@._V1_UY44_CR1,0,32,44_AL_.jpg",
+      "urlProfile": "http://www.imdb.com/name/nm0489644"
+    }],
+    "countries": ["USA"],
+    "directors": [{
+      "name": "James Bridges",
+      "nameId": "nm0108745"
+    }],
+    "filmingLocations": ["Alabama Hills", "Lone Pine", "California", "USA"],
+    "genres": ["Drama", "Romance"],
+    "idIMDB": "tt0089798",
+    "languages": ["English"],
+    "metascore": "",
+    "originalTitle": "",
+    "plot": "A female aerobics instructor meets a male reporter doing a story on health clubs, but it isn't love at first sight.",
+    "rated": "R",
+    "rating": "4.2",
+    "releaseDate": "19850607",
+    "runtime": ["115 min"],
+    "simplePlot": "A female aerobics instructor meets a male reporter doing a story on health clubs, but it isn't love at first sight.",
+    "title": "Perfect",
+    "type": "Movie",
+    "urlIMDB": "http://www.imdb.com/title/tt0089798",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTIyMDQ3NDIwMV5BMl5BanBnXkFtZTYwODI2MTg4._V1_SY317_CR2,0,214,317_AL_.jpg",
+    "votes": "3,180",
+    "writers": [{
+      "name": "Aaron Latham",
+      "nameId": "nm0490061"
+    }, {
+      "name": "Aaron Latham",
+      "nameId": "nm0490061"
+    }],
+    "year": "1985"
   }
+
 
 ]
