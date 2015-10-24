@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   position: relative;
   width: 960px;
 }
@@ -38,7 +38,6 @@ label {
   stroke: #fff;
 }
 
-
 .d3-tip {
   line-height: 1;
   padding: 12px;
@@ -46,8 +45,6 @@ label {
   color: #000;
   border-radius: 2px;
 }
-
-
 
 /* Style northward tooltips differently */
 .d3-tip.n:after {
