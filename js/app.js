@@ -32,25 +32,25 @@ d3.json('data/repeats.json', function(error, data) {
       .scale(y)
       .orient('left');
 
-  var svg = d3.select('#chart').append('svg')
+  var svgM = d3.select('#chart').append('svg')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom)
     .append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-  svg.selectAll('.title')
+  svgM.selectAll('.title')
       .data(xNames)
     .enter().append('text')
-      .attr('class', 'title')
+      .attr('class', function(d,i) { return 'title ' + xIds[i]; })
       .attr('transform', function(d) { return 'translate(' + x(d) + ',' + y("Title")  + ')rotate(90)'})
       .attr('text-anchor', 'start')
       .text(function(d){ return d });
 
-  svg.append('text')
+  svgM.append('text')
       .attr('class', 'namebox');
 
   for (var movie in data.moviesWithRepeatActors ){
-    svg.selectAll('.circle')
+    svgM.selectAll('.circle')
         .data( data.moviesWithRepeatActors[movie] )
       // .enter().append('text')
       .enter().append('circle')
@@ -65,13 +65,16 @@ d3.json('data/repeats.json', function(error, data) {
 
   function highlight(){
     var thisclass = d3.select(this).data()[0];
-    d3.select('.namebox').text(data.actorKey[thisclass]);
+    // console.log(data.repeatActors[thisclass].length))
+    d3.select('.namebox').text(data.actorKey[thisclass] + ' (' + data.repeatActors[thisclass].length +')');
     d3.selectAll('.' + thisclass).classed("active", true).attr('r', 2*radius);
+    data.repeatActors[thisclass].forEach(function(d){ d3.select('.' + d).classed("active", true) });
   }
   function unhighlight(){
     var thisclass = d3.select(this).data()[0];
     d3.select('.namebox').text('');
     d3.selectAll('.' + thisclass).classed("active", false).attr('r', radius);
+    data.repeatActors[thisclass].forEach(function(d){ d3.select('.' + d).classed("active", false) });
   }
 
 });
