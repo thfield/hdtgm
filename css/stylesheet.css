@@ -1,47 +1,9 @@
-body {
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  position: relative;
-  width: 960px;
-}
 
-.axis text {
-  font: 10px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.bar {
-  fill: steelblue;
-  fill-opacity: .9;
-}
-
-.bar:hover{
-	fill: brown;
-}
-
-.x.axis path {
-  display: none;
-}
-
-label {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.arc path {
-  stroke: #fff;
-}
 
 .title {
   font-size: 12px;
 }
 
 .active {
-  fill: red;
+  fill: #ef6548;
 }

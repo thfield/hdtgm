@@ -57,6 +57,7 @@ d3.json('data/repeats.json', function(error, data) {
         .attr('class', function(d) { return 'actor ' + d; })
         .attr("cy", function(d, i) { return y( 'Actors' ) - 3 * radius * i; })
         .attr("cx", function(d) { return (x(movie)+radius ); })
+        .attr("fill", function(d) { return colorbrewer['Greys'][7][data.repeatActors[d].length]; })
         .attr("r", radius)
         .on("mouseover", highlight )
         .on("mouseout", unhighlight );
