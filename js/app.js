@@ -1,84 +1,105 @@
 d3.json('data/repeats.json', function(error, data) {
-  var xIds = [],
-      xNames = [];
+  function chartRole(pageId, role){
+    var xIds = [],
+        xNames = [];
 
-  var radius = 4,
-      rem = 12;
+    var radius = 4,
+        rem = 12;
 
-  data.movieKey.forEach(function(d){
-    if (d) {
-      xIds.push(d.id);
-      xNames.push(d.title);
+    data.movieKey.forEach(function(d){
+      if (d) {
+        xIds.push(d.id);
+        xNames.push(d.title);
+      }
+    });
+
+    if (role == 'actor'){
+      var repeatRoles = 'repeatActors',
+          moviesWithRepeatRoles = 'moviesWithRepeatActors',
+          roleKey = 'actorKey'
+          h = 950;
+    } else if (role == 'director'){
+      var repeatRoles = 'repeatDirectors',
+          moviesWithRepeatRoles = 'moviesWithRepeatDirectors',
+          roleKey = 'directorKey'
+          h = 400;
+    } else if (role == 'writer'){
+      var repeatRoles = 'repeatWriters',
+          moviesWithRepeatRoles = 'moviesWithRepeatWriters',
+          roleKey = 'writerKey'
+          h=400;
     }
 
-  });
-  var margin = {top: 20, right: 20, bottom: 20, left: 20},
-      width = (xIds.length*(2*radius+4)) - margin.left - margin.right,
-      height =  950 - margin.top - margin.bottom;
+    var margin = {top: 20, right: 20, bottom: 20, left: 20},
+        width = (xIds.length*(2*radius+4)) - margin.left - margin.right,
+        height =  h - margin.top - margin.bottom;
 
-  var y = d3.scale.ordinal()
-      .range( [ 2*height/3, 2*height/3 - 2*radius, height/2, height/4] )
-      .domain(['Title', 'Actors', 'Director', 'Writer']);
+    var y = d3.scale.ordinal()
+        .range( [ 2*height/3, 2*height/3 - 2*radius, 2*height/3 - 2*radius, 2*height/3 - 2*radius] )
+        .domain(['title', 'actor', 'director', 'writer']);
 
-  var x = d3.scale.ordinal()
-      .range( xIds.map(function(d,i){ return ( ((i+1) * width) / (xIds.length) + rem/2 ) + 4 }) )
-      .domain( xIds );
+    var x = d3.scale.ordinal()
+        .range( xIds.map(function(d,i){ return ( ((i+1) * width) / (xIds.length) + rem/2 ) + 4 }) )
+        .domain( xIds );
 
-  var xAxis = d3.svg.axis()
-      .scale(x)
-      .orient('bottom');
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient('bottom');
 
-  var yAxis = d3.svg.axis()
-      .scale(y)
-      .orient('left');
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient('left');
 
-  var svgM = d3.select('#chart').append('svg')
-      .attr('width', width + margin.left + margin.right)
-      .attr('height', height + margin.top + margin.bottom)
-    .append('g')
-      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+    var svgM = d3.select(pageId).append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-  svgM.append('text')
-      .attr('class', 'namebox');
+    svgM.append('text')
+        .attr('class', 'namebox');
 
-  svgM.append('g').attr('class', 'titles').selectAll('.title')
-      .data(xNames)
-    .enter().append('text')
-      .attr('class', function(d,i) { return 'title ' + xIds[i]; })
-      .attr('transform', function(d) { return 'translate(' + x(d) + ',' + y("Title")  + ')rotate(90)'})
-      .attr('text-anchor', 'start')
-      .text(function(d){ return d });
+    svgM.append('g').attr('class', 'titles').selectAll('.title')
+        .data(xNames)
+      .enter().append('text')
+        .attr('class', function(d,i) { return 'title ' + xIds[i]; })
+        .attr('transform', function(d) { return 'translate(' + x(d) + ',' + y("title")  + ')rotate(90)'})
+        .attr('text-anchor', 'start')
+        .text(function(d){ return d });
 
-  var circles = svgM.append('g').attr('class', 'circles');
+    var circles = svgM.append('g').attr('class', 'circles');
 
-  for (var movie in data.moviesWithRepeatActors ){
-    circles.selectAll('.circle')
-        .data( data.moviesWithRepeatActors[movie] )
-      // .enter().append('text')
-      .enter().append('circle')
-        .attr('class', function(d) { return 'actor ' + d; })
-        .attr("cy", function(d, i) { return y( 'Actors' ) - 3 * radius * i; })
-        .attr("cx", function(d) { return (x(movie)+radius ); })
-        .attr("fill", function(d) { return colorbrewer['Greys'][7][data.repeatActors[d].length]; })
-        .attr("r", radius)
-        .on("mouseover", highlight )
-        .on("mouseout", unhighlight );
+    for (var movie in data[moviesWithRepeatRoles] ){
+      circles.selectAll('.circle')
+          .data( data[moviesWithRepeatRoles][movie] )
+        // .enter().append('text')
+        .enter().append('circle')
+          .attr('class', function(d) { return role + ' ' + d; })
+          .attr("cy", function(d, i) { return y(role) - 3 * radius * i; })
+          .attr("cx", function(d) { return (x(movie)+radius ); })
+          .attr("fill", function(d) { return colorbrewer['Greys'][7][data[repeatRoles][d].length]; })
+          .attr("r", radius)
+          .on("mouseover", highlight )
+          .on("mouseout", unhighlight );
+    }
+    function highlight(){
+      var thisclass = d3.select(this).data()[0];
+      // console.log(data[repeatRoles][thisclass].length))
+      d3.select(pageId + ' .namebox')
+        .text(data[roleKey][thisclass] + ' (' + data[repeatRoles][thisclass].length +')');
+        // .attr('transform', function(){ return 'translate(' + d3.mouse(this)[0]  + ',' + height/2 +')' });
+      d3.selectAll('.' + thisclass).classed("active", true).attr('r', 2*radius);
+      data[repeatRoles][thisclass].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", true) });
+    }
+    function unhighlight(){
+      var thisclass = d3.select(this).data()[0];
+      d3.select(pageId + ' .namebox').text(''); //.attr('transform', function(){ return 'translate(0,0)' });
+      d3.selectAll('.' + thisclass).classed("active", false).attr('r', radius);
+      data[repeatRoles][thisclass].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
+    }
   }
 
-  function highlight(){
-    var thisclass = d3.select(this).data()[0];
-    // console.log(data.repeatActors[thisclass].length))
-    d3.select('.namebox')
-      .text(data.actorKey[thisclass] + ' (' + data.repeatActors[thisclass].length +')');
-      // .attr('transform', function(){ return 'translate(' + d3.mouse(this)[0]  + ',' + height/2 +')' });
-    d3.selectAll('.' + thisclass).classed("active", true).attr('r', 2*radius);
-    data.repeatActors[thisclass].forEach(function(d){ d3.select('.' + d).classed("active", true) });
-  }
-  function unhighlight(){
-    var thisclass = d3.select(this).data()[0];
-    d3.select('.namebox').text(''); //.attr('transform', function(){ return 'translate(0,0)' });
-    d3.selectAll('.' + thisclass).classed("active", false).attr('r', radius);
-    data.repeatActors[thisclass].forEach(function(d){ d3.select('.' + d).classed("active", false) });
-  }
-
+  chartRole('#actor-chart','actor');
+  chartRole('#director-chart','director');
+  chartRole('#writer-chart','writer');
 });
