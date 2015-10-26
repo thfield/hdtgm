@@ -6,8 +6,8 @@
   <title>HDTGM Data Extravaganza</title>
   <link rel="stylesheet" href="css/stylesheet.css">
 
-  <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/d3/d3.min.js"></script> -->
+  <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
+  <!-- <script src="bower_components/d3/d3.min.js"></script> -->
   <!-- <script src="bower_components/underscore/underscore-min.js"></script> -->
   <!-- <script src="bower_components/d3-tip/d3.tip.js"></script> -->
 
@@ -20,8 +20,19 @@
 </head>
 
 <body>
-	<div id="actorsChart" class=""></div>
-	<div id="moviesChart" class=""></div>
+  <div class="about">
+    <p>
+      <a href="earwolf.com/show/how-did-this-get-made/">How Did This Get Made</a> is a podcast about movies.  Do the movies they talk about have things in common?  Let's find out.  Every actor who appears in 2 or more movies, sorted by podcast episode:
+    </p>
+  </div>
+	<div id="actor-chart" class=""></div>
+  <div class="about">
+    <p>
+      The same, for Directors, then Writers:
+    </p>
+  </div>
+  <div id="director-chart" class=""></div>
+  <div id="writer-chart" class=""></div>
 
 	<script src="js/colorbrewer.js" charset="utf-8"></script>
 	<script src="js/app.js" charset="utf-8"></script>

@@ -1,4 +1,11 @@
+body {
+  font-family: sans-serif;
+}
 
+.about {
+  width: 50%;
+  margin: auto;  
+}
 
 .title {
   font-size: 12px;
