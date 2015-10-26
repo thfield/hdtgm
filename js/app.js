@@ -14,10 +14,10 @@ d3.json('data/repeats.json', function(error, data) {
   });
   var margin = {top: 20, right: 20, bottom: 20, left: 20},
       width = (xIds.length*(2*radius+4)) - margin.left - margin.right,
-      height =  540 - margin.top - margin.bottom;
+      height =  950 - margin.top - margin.bottom;
 
   var y = d3.scale.ordinal()
-      .range( [ height/2, height/2 - 2*radius, height/2, height/4] )
+      .range( [ 2*height/3, 2*height/3 - 2*radius, height/2, height/4] )
       .domain(['Title', 'Actors', 'Director', 'Writer']);
 
   var x = d3.scale.ordinal()
@@ -38,7 +38,10 @@ d3.json('data/repeats.json', function(error, data) {
     .append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-  svgM.selectAll('.title')
+  svgM.append('text')
+      .attr('class', 'namebox');
+
+  svgM.append('g').attr('class', 'titles').selectAll('.title')
       .data(xNames)
     .enter().append('text')
       .attr('class', function(d,i) { return 'title ' + xIds[i]; })
@@ -46,11 +49,10 @@ d3.json('data/repeats.json', function(error, data) {
       .attr('text-anchor', 'start')
       .text(function(d){ return d });
 
-  svgM.append('text')
-      .attr('class', 'namebox');
+  var circles = svgM.append('g').attr('class', 'circles');
 
   for (var movie in data.moviesWithRepeatActors ){
-    svgM.selectAll('.circle')
+    circles.selectAll('.circle')
         .data( data.moviesWithRepeatActors[movie] )
       // .enter().append('text')
       .enter().append('circle')
@@ -66,13 +68,15 @@ d3.json('data/repeats.json', function(error, data) {
   function highlight(){
     var thisclass = d3.select(this).data()[0];
     // console.log(data.repeatActors[thisclass].length))
-    d3.select('.namebox').text(data.actorKey[thisclass] + ' (' + data.repeatActors[thisclass].length +')');
+    d3.select('.namebox')
+      .text(data.actorKey[thisclass] + ' (' + data.repeatActors[thisclass].length +')');
+      // .attr('transform', function(){ return 'translate(' + d3.mouse(this)[0]  + ',' + height/2 +')' });
     d3.selectAll('.' + thisclass).classed("active", true).attr('r', 2*radius);
     data.repeatActors[thisclass].forEach(function(d){ d3.select('.' + d).classed("active", true) });
   }
   function unhighlight(){
     var thisclass = d3.select(this).data()[0];
-    d3.select('.namebox').text('');
+    d3.select('.namebox').text(''); //.attr('transform', function(){ return 'translate(0,0)' });
     d3.selectAll('.' + thisclass).classed("active", false).attr('r', radius);
     data.repeatActors[thisclass].forEach(function(d){ d3.select('.' + d).classed("active", false) });
   }
