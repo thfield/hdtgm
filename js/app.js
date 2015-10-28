@@ -1,5 +1,8 @@
 d3.json('data/repeats.json', function(error, data) {
   function chartRole(pageId, role){
+    //TODO make function more reusable: http://bost.ocks.org/mike/chart/
+    //TODO roll data file into more standard form, maybe array of objects with episode key?
+
     var xIds = [],
         xNames = [];
 
@@ -13,6 +16,7 @@ d3.json('data/repeats.json', function(error, data) {
       }
     });
 
+    //TODO make this more elegant, possibly in reusable reformatting?
     if (role == 'actor'){
       var repeatRoles = 'repeatActors',
           moviesWithRepeatRoles = 'moviesWithRepeatActors',
@@ -83,18 +87,16 @@ d3.json('data/repeats.json', function(error, data) {
           .on("mouseout", unhighlight );
     }
     function highlight(){
-      var thisclass = d3.select(this).data()[0];
-      // console.log(data[repeatRoles][thisclass].length))
+      var thisclass = d3.select(this).datum();
       d3.select(pageId + ' .namebox')
         .text(data[roleKey][thisclass] + ' (' + data[repeatRoles][thisclass].length +')');
-        // .attr('transform', function(){ return 'translate(' + d3.mouse(this)[0]  + ',' + height/2 +')' });
-      d3.selectAll('.' + thisclass).classed("active", true).attr('r', 2*radius);
+      d3.selectAll('.' + thisclass).classed("active", true).transition().attr('r', 2*radius);
       data[repeatRoles][thisclass].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", true) });
     }
     function unhighlight(){
-      var thisclass = d3.select(this).data()[0];
-      d3.select(pageId + ' .namebox').text(''); //.attr('transform', function(){ return 'translate(0,0)' });
-      d3.selectAll('.' + thisclass).classed("active", false).attr('r', radius);
+      var thisclass = d3.select(this).datum();
+      d3.select(pageId + ' .namebox').text('');
+      d3.selectAll('.' + thisclass).classed("active", false).transition().attr('r', radius);
       data[repeatRoles][thisclass].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
     }
   }
@@ -102,4 +104,5 @@ d3.json('data/repeats.json', function(error, data) {
   chartRole('#actor-chart','actor');
   chartRole('#director-chart','director');
   chartRole('#writer-chart','writer');
+  //TODO idea: move director/writer to single chart with color difference
 });
