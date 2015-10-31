@@ -1,16 +1,44 @@
 body {
   font-family: sans-serif;
+  /*background-color: #eee;*/
 }
 
 .about {
   width: 50%;
-  margin: auto;  
+  margin: auto;
 }
 
 .title {
   font-size: 12px;
 }
+circle {
+  stroke: #333;
+  stroke-width: 1px;
+}
+.actor2 {fill: #fff5eb;}
+
+.actor3 {fill: #fee6ce;}
+.actor4 {fill: #fdd0a2;}
+.actor5 {fill: #fdae6b;}
+.actor6 {fill: #fd8d3c;}
+.actor7 {fill: #f16913;}
+.actor8 {fill: #d94801;}
+.actor9 {fill: #a63603;}
+.actor10 {fill: #7f2704;}
+
+
+.director1 {fill: #eff3ff;}
+.director2 {fill: #bdd7e7;}
+.director3 {fill: #6baed6;}
+.director4 {fill: #2171b5;}
+
+.writer1 {fill: #edf8e9;}
+.writer2 {fill: #bae4b3;}
+.writer3 {fill: #74c476;}
+.writer4 {fill: #238b45;}
+
+
 
 .active {
-  fill: #ef6548;
+  fill: #ffff33;
 }
