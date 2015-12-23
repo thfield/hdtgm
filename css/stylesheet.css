@@ -11,12 +11,15 @@ body {
 .title {
   font-size: 12px;
 }
+
+svg {
+  background-color: #fcfcfc;
+}
 circle {
-  stroke: #333;
+  stroke: #dbdbdb;
   stroke-width: 1px;
 }
 .actor2 {fill: #fff5eb;}
-
 .actor3 {fill: #fee6ce;}
 .actor4 {fill: #fdd0a2;}
 .actor5 {fill: #fdae6b;}
@@ -37,8 +40,7 @@ circle {
 .writer3 {fill: #74c476;}
 .writer4 {fill: #238b45;}
 
-
-
 .active {
-  fill: #ffff33;
+  /*stroke: #474747;*/
+  fill: #6700a6;
 }

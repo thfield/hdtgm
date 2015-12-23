@@ -7,14 +7,13 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
     var xIds = [],
         xNames = [];
 
-    var h = 950,
-        radius = 4,
+    var h = 850,
+        radius = 3.5,
         rem = 12;
 
     // var roles = ['title', 'actor', 'director', 'writer'];
     // dots of later roles are placed over top dots of earlier roles.
     // use a layout? count circles that are already along x?
-
 
     data.episodes.forEach(function(d){
         xIds.push(d.imdbID);
@@ -26,7 +25,7 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
         height =  h - margin.top - margin.bottom;
 
     var y = d3.scale.ordinal()
-        .range( [ 2*height/3, 2*height/3 - 2*radius, 2*height/3 - 2*radius, 2*height/3 - 2*radius] )
+        .range( [ 2*height/3, 2*height/3 - 2*radius] )
         .domain(roles.shift());
 
     var x = d3.scale.ordinal()
@@ -66,7 +65,7 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
           circles.selectAll('.circle')
               .data( movie.repeats[role] )
             .enter().append('circle')
-              .attr('class', function(d) { return role + [data.nameKey[d].repeats[role].length] + ' ' + d; })
+              .attr('class', function(d) { return role + [data.nameKey[d].repeats[role].length] + ' ' + movie.imdbID + ' ' + d; })
               .attr("cy", function(d, i) { return y(role) - 3 * radius * i; })
               .attr("cx", function(d) { return (x(movie.imdbID)+radius ); })
               .attr("r", radius)
@@ -79,19 +78,27 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
     function highlight(){
       var me = d3.select(this),
           thisInd = me.datum(),
-          thisrole = /[a-z]+/.exec(me[0][0].classList[0])[0];
+          thisrole = /[a-z]+/.exec(me[0][0].classList[0])[0],
+          thisMovie = me[0][0].classList[1]; //figure out how to instead save titleId in data() of circle
 
       d3.select(pageId + ' .namebox')
-        .text(data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +')');
+        .text(data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +') '+ thisrole );
       d3.selectAll('.' + thisInd).classed("active", true).transition().attr('r', 2*radius);
       d3.select(pageId + ' .' + thisInd).classed("active", true) ;
-      // data.nameKey[thisInd].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", true) });
+      d3.select(pageId + ' .' + thisMovie).classed("active", true) ;
+      data.nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", true) });
     }
+
     function unhighlight(){
-      var thisInd = d3.select(this).datum();
+      var me = d3.select(this),
+      thisInd = me.datum(),
+      thisrole = /[a-z]+/.exec(me[0][0].classList[0])[0],
+      thisMovie = me[0][0].classList[1];
+
       d3.select(pageId + ' .namebox').text('');
       d3.selectAll('.' + thisInd).classed("active", false).transition().attr('r', radius);
-    //   data[repeatRoles][thisInd].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
+      d3.selectAll('.' + thisMovie).classed("active", false);
+      data.nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
     }
   }
 
