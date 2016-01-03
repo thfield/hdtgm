@@ -79,10 +79,12 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
       var me = d3.select(this),
           thisInd = me.datum(),
           thisrole = /[a-z]+/.exec(me[0][0].classList[0])[0],
-          thisMovie = me[0][0].classList[1]; //figure out how to instead save titleId in data() of circle
+          thisMovie = me[0][0].classList[1], //figure out how to instead save titleId in data() of circle
+          thisText = data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +') '+ thisrole;
 
-      d3.select(pageId + ' .namebox')
-        .text(data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +') '+ thisrole );
+      // d3.select(pageId + ' .namebox')
+      //   .text(data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +') '+ thisrole );
+      ttFollow(me, thisText)
       d3.selectAll('.' + thisInd).classed("active", true).transition().attr('r', 2*radius);
       d3.select(pageId + ' .' + thisInd).classed("active", true) ;
       d3.select(pageId + ' .' + thisMovie).classed("active", true) ;
@@ -95,11 +97,29 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
       thisrole = /[a-z]+/.exec(me[0][0].classList[0])[0],
       thisMovie = me[0][0].classList[1];
 
-      d3.select(pageId + ' .namebox').text('');
+      ttHide();
+      // d3.select(pageId + ' .namebox').text('');
       d3.selectAll('.' + thisInd).classed("active", false).transition().attr('r', radius);
       d3.selectAll('.' + thisMovie).classed("active", false);
       data.nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
     }
+  }
+
+  function ttFollow(element, caption, options) {
+    element.on('mousemove', null);
+    element.on('mousemove', function() {
+      var position = d3.mouse(document.body);
+      d3.select('#tooltip')
+        .style('top', ( (position[1] + 30)) + "px")
+        .style('left', ( position[0]) + "px");
+      d3.select('#tooltip .value')
+        .text(caption);
+    });
+    d3.select('#tooltip').classed('hidden', false);
+  };
+
+  function ttHide() {
+    d3.select('#tooltip').classed('hidden', true);
   }
 
   chartRole('#actor-chart', ['title', 'actor']);
