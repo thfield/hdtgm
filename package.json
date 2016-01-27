@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thfield/hdtgm/issues"
   },
-  "homepage": "https://github.com/thfield/hdtgm#readme"
+  "homepage": "https://github.com/thfield/hdtgm#readme",
+  "dependencies": {
+    "forEachAsync": "^3.0.0"
+  }
 }
