@@ -1,8 +1,9 @@
 {
   "name": "hdtgm",
   "version": "1.0.0",
-  "description": "",
+  "description": "A series of data visualizations about a podcast",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/thfield/hdtgm.git"
   },
-  "author": "",
+  "author": "thfield",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thfield/hdtgm/issues"
   },
   "homepage": "https://github.com/thfield/hdtgm#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
   "dependencies": {
-    "forEachAsync": "^3.0.0"
+    "d3": "^3.5.14",
+    "lodash": "^4.2.1"
   }
 }

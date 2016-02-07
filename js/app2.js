@@ -1,5 +1,6 @@
 "use strict";
-d3.json('data/episodeswrepeats.json', function(error, data) {
+d3.json('data/nameKey.json', function(error, nameKey) {
+d3.json('data/episodes-processed.json', function(error, episodes) {
   function chartRole(pageId, roles){
     //TODO make function more reusable: http://bost.ocks.org/mike/chart/
     //TODO roll data file into more standard form, maybe array of objects with episode key?
@@ -15,7 +16,7 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
     // dots of later roles are placed over top dots of earlier roles.
     // use a layout? count circles that are already along x?
 
-    data.episodes.forEach(function(d){
+    episodes.forEach(function(d){
         xIds.push(d.imdbID);
         xNames.push(d.title);
     });
@@ -57,12 +58,12 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
     var circles = svgM.append('g').attr('class', 'circles');
 
     roles.forEach(function(role){
-      data.episodes.forEach(function(movie){
+      episodes.forEach(function(movie){
         if (movie.repeats[role]){
           circles.selectAll('.circle')
               .data( movie.repeats[role] )
             .enter().append('circle')
-              .attr('class', function(d) { return role + [data.nameKey[d].repeats[role].length] + ' ' + movie.imdbID + ' ' + d; })
+              .attr('class', function(d) { return role + [nameKey[d].repeats[role].length] + ' ' + movie.imdbID + ' ' + d; })
               .attr("cy", function(d, i) { return y(role) - 3 * radius * i; })
               .attr("cx", function(d) { return (x(movie.imdbID)+radius ); })
               .attr("r", radius)
@@ -77,15 +78,15 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
           thisInd = me.datum(),
           thisrole = /[a-z]+/.exec(me[0][0].classList[0])[0],
           thisMovie = me[0][0].classList[1], //figure out how to instead save titleId in data() of circle
-          thisText = data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +') '+ thisrole;
+          thisText = nameKey[thisInd].name + ' (' + nameKey[thisInd].repeats[thisrole].length +') '+ thisrole;
 
       // d3.select(pageId + ' .namebox')
-      //   .text(data.nameKey[thisInd].name + ' (' + data.nameKey[thisInd].repeats[thisrole].length +') '+ thisrole );
+      //   .text(nameKey[thisInd].name + ' (' + nameKey[thisInd].repeats[thisrole].length +') '+ thisrole );
       ttFollow(me, thisText)
       d3.selectAll('.' + thisInd).classed("active", true).transition().attr('r', 2*radius);
       d3.select(pageId + ' .' + thisInd).classed("active", true) ;
       d3.select(pageId + ' .' + thisMovie).classed("active", true) ;
-      data.nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", true) });
+      nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", true) });
     }
 
     function unhighlight(){
@@ -98,7 +99,7 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
       // d3.select(pageId + ' .namebox').text('');
       d3.selectAll('.' + thisInd).classed("active", false).transition().attr('r', radius);
       d3.selectAll('.' + thisMovie).classed("active", false);
-      data.nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
+      nameKey[thisInd].repeats[thisrole].forEach(function(d){ d3.select(pageId + ' .' + d).classed("active", false) });
     }
   }
 
@@ -121,4 +122,5 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
 
   chartRole('#actor-chart', ['title', 'actor']);
 
+});
 });

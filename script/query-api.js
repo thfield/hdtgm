@@ -1,7 +1,8 @@
 'use strict'
-const fs = require('fs');
-const http = require('http');
-const url = require('url');
+const fs = require('fs')
+const http = require('http')
+const url = require('url')
+// const async = require('async')
 
 let tokens = JSON.parse(fs.readFileSync('tokens.json', 'utf8'))
 
@@ -13,6 +14,8 @@ let getlist = fs.readFileSync('get.txt', 'utf8').split('\n'),
 
 let myapifilmsData = JSON.parse(fs.readFileSync(myapifilmsFile, 'utf8')),
     omdbData = JSON.parse(fs.readFileSync(omdbFile, 'utf8'))
+// let myapifilmsData = [],
+//     omdbData = []
 
 function writeToFile(string, filename){
   fs.writeFile(filename, string, function(err) {
@@ -25,7 +28,7 @@ function writeToFile(string, filename){
 }
 
 function omdbapiOptions(title){
-  let options = {
+  return {
     protocol: 'http',
     host:'www.omdbapi.com',
     query:{
@@ -35,11 +38,10 @@ function omdbapiOptions(title){
       tomatoes: 'true'
     }
   }
-  return options
 }
 
 function myapifilmsOptions(title){
-  let options = {
+  return {
     protocol: 'http',
     host:'api.myapifilms.com',
     pathname: 'imdb/idIMDB',
@@ -51,7 +53,6 @@ function myapifilmsOptions(title){
       actors: 2
     }
   }
-  return options
 }
 
 function fetchOMDB(title) {
@@ -78,6 +79,16 @@ function apiQuery(path) {
   });
 }
 
+// async.each(getlist,function(title){
+//   omdbData
+//   let path = url.format(omdbapiOptions(title))
+//   return apiQuery(path)
+// }, function(results){
+//      results.forEach(function(item) {
+//        omdbData.push(JSON.parse(item))
+//      });
+//     writeToFile(JSON.stringify(omdbData), omdbFileTest)
+//   })
 
 let omdbPromises = getlist.map(fetchOMDB);
 Promise.all(omdbPromises)

@@ -1,10 +1,11 @@
 'use strict'
 const fs = require('fs');
 
-let episodesfile = 'episodes.json',
+let episodesfile = 'dataEpisodes.json',
     myapifilmsFile = 'dataMyAPIFilms.json',
     omdbFile = 'dataOMDB.json',
-    outputfile = 'episodeswrepeats.json'
+    outputFile = 'episodes-processed.json',
+    outputFile2 = 'nameKey.json'
 
 let episodes = JSON.parse(fs.readFileSync(episodesfile, 'utf8')),
     myapifilmsData = JSON.parse(fs.readFileSync(myapifilmsFile, 'utf8')),
@@ -151,10 +152,6 @@ episodes.forEach(function(episode){
   episode.repeats['director'] = moviesWithRepeatDirectors[id];
 });
 
-//output the file
-fs.writeFile(outputfile, JSON.stringify({ episodes, nameKey }),
-  function(err) {
-    if (err) { return console.log(err); }
-    console.log("Report file saved as", outputfile);
-  }
-);
+//output the file(s)
+writeToFile(JSON.stringify( episodes ), outputFile)
+writeToFile(JSON.stringify( nameKey ), outputFile2)

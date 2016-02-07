@@ -1,8 +1,9 @@
 http://www.myapifilms.com/index.jsp
 http://www.omdbapi.com/
 
-1. add episode info to 'episodes.json'
+1. add episode info to 'dataEpisodes.json'
 2. lookup imdb ID number(s) online, put in 'get.txt'
-3. run `$ node query.js`
-4. run `$ node processdata.js`
-5. move 'script/episodeswrepeats.json' to 'data/episodeswrepeats.json'
+3. run `$ node query-api.js`
+4. run `$ node process-data.js`
+5. move 'script/episodes-processed.json' to 'data/episodes-processed.json'
+6. move 'script/nameKey.json' to 'data/nameKey.json'

@@ -28,8 +28,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"4",
@@ -39,8 +39,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"5",
@@ -50,8 +50,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"6",
@@ -61,8 +61,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"7",
@@ -72,8 +72,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"8",
@@ -94,8 +94,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"10",
@@ -105,8 +105,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"11",
@@ -116,8 +116,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "false"
     }
   },
   { "episode":"12",
@@ -127,8 +127,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "remote"
     }
   },
   { "episode":"13",
@@ -138,8 +138,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "remote"
     }
   },
   { "episode":"14",
@@ -149,9 +149,10 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
-    }
+      "june": "true",
+      "jason": "true"
+    },
+    "notes": "removed"
   },
   { "episode":"15",
     "title":"The Back-up Plan",
@@ -160,8 +161,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"16",
@@ -173,7 +174,8 @@
       "paul": "true",
       "june": "true",
       "jason": "true"
-    }
+    },
+    "notes":"removed"
   },
   { "episode":"17",
     "title":"Skyline",
@@ -182,8 +184,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "remote"
     }
   },
   { "episode":"18",
@@ -193,8 +195,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "remote"
     }
   },
   { "episode":"19",
@@ -204,8 +206,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"20",
@@ -215,8 +217,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "false"
     }
   },
   { "episode":"21",
@@ -226,8 +228,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"22",
@@ -257,6 +259,7 @@
     "guest":["Damon Lindelof"],
     "date":"November 29, 2011",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -281,8 +284,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"27",
@@ -292,8 +295,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"28",
@@ -303,8 +306,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "false",
+      "jason": "true"
     }
   },
   { "episode":"29",
@@ -314,8 +317,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"30",
@@ -325,8 +328,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"31",
@@ -334,10 +337,11 @@
     "guest":["Weird Al Yankovic","Whitney Moore"],
     "date":"February 28, 2012",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"32",
@@ -369,7 +373,7 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
+      "june": "true",
       "jason": "true"
     }
   },
@@ -402,8 +406,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"38",
@@ -413,8 +417,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"39",
@@ -457,8 +461,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "false",
+      "jason": "remote"
     }
   },
   { "episode":"43",
@@ -468,8 +472,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"44",
@@ -479,8 +483,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"45",
@@ -488,10 +492,11 @@
     "guest":["Doug Benson"],
     "date":"September 18, 2012",
     "live":"true",
+    "location":["Seattle", "Bumbershoot"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"46",
@@ -510,6 +515,7 @@
     "guest":["Jenny Slate"],
     "date":"October 16, 2012",
     "live":"true",
+    "location":["Seattle", "Bumbershoot"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -532,10 +538,11 @@
     "guest":["Brian Posehn","Rhett Miller"],
     "date":"November 13, 2012",
     "live":"true",
+    "location":["Seattle", "Bumbershoot"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"50",
@@ -556,8 +563,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"52",
@@ -576,6 +583,7 @@
     "guest":["Michael Ian Black"],
     "date":"January 8, 2013",
     "live":"true",
+    "location":["New York", "The Bell House"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -589,8 +597,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"55",
@@ -598,10 +606,11 @@
     "guest":["Julie Klausner"],
     "date":"February 5, 2013",
     "live":"true",
+    "location":["New York", "The Bell House"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"56",
@@ -611,8 +620,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"57",
@@ -620,10 +629,11 @@
     "guest":["Nick Kroll"],
     "date":"March 5, 2013",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"58",
@@ -644,8 +654,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"60",
@@ -655,8 +665,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"61",
@@ -666,8 +676,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"62",
@@ -677,8 +687,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"63",
@@ -688,8 +698,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"64",
@@ -699,8 +709,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"65",
@@ -708,6 +718,7 @@
     "guest":["Kristen Schaal"],
     "date":"June 25, 2013",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -719,10 +730,11 @@
     "guest":["Wyatt Cenac"],
     "date":"July 9, 2013",
     "live":"true",
+    "location":["New York", "SubCulture"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"67",
@@ -732,8 +744,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"68",
@@ -741,10 +753,11 @@
     "guest":["Bobby Moynihan"],
     "date":"July 30, 2013",
     "live":"true",
+    "location":["New York", "SubCulture"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"69",
@@ -754,8 +767,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"70",
@@ -763,6 +776,7 @@
     "guest":["Michael Showalter"],
     "date":"August 27, 2013",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -787,7 +801,7 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
+      "june": "false",
       "jason": "true"
     }
   },
@@ -842,8 +856,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"78",
@@ -853,8 +867,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"79",
@@ -862,6 +876,7 @@
     "guest":["Andrea Savage"],
     "date":"December 31, 2013",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -873,6 +888,7 @@
     "guest":["Dan Harmon"],
     "date":"January 14, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -897,8 +913,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"83",
@@ -917,6 +933,7 @@
     "guest":["Thomas Lennon"],
     "date":"March 25, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -930,8 +947,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"86",
@@ -961,6 +978,7 @@
     "guest":["Rob Corddry"],
     "date":"July 8, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -985,8 +1003,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"91",
@@ -1016,10 +1034,11 @@
     "guest":["Katie Dippold"],
     "date":"September 9, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"94",
@@ -1027,10 +1046,11 @@
     "guest":["Adam Scott","Casey Wilson","Dan Levy"],
     "date":"September 23, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "false",
+      "jason": "false"
     }
   },
   { "episode":"95",
@@ -1040,8 +1060,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"96",
@@ -1060,10 +1080,11 @@
     "guest":["Matt L. Jones"],
     "date":"November 7, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"98",
@@ -1071,10 +1092,11 @@
     "guest":["Rob Huebel","Chelsea Peretti"],
     "date":"November 21, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "false",
+      "jason": "false"
     }
   },
   { "episode":"99",
@@ -1082,6 +1104,7 @@
     "guest":["Matt Gourley","Matt Mira"],
     "date":"December 12, 2014",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1104,10 +1127,11 @@
     "guest":["Michaela Watkins"],
     "date":"January 12, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"102",
@@ -1117,8 +1141,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"103",
@@ -1134,7 +1158,7 @@
   },
   { "episode":"104",
     "title":"Zardoz Revisited",
-    "guest":["June Diane Raphael"],
+    "guest":[],
     "date":"February 25, 2015",
     "live":"false",
     "hosts" : {
@@ -1150,7 +1174,7 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
+      "june": "false",
       "jason": "true"
     }
   },
@@ -1159,10 +1183,11 @@
     "guest":["Paul F. Tompkins","Evan Goldberg"],
     "date":"March 20, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "false",
-      "jason": "false"
+      "jason": "true"
     }
   },
   { "episode":"107",
@@ -1170,10 +1195,11 @@
     "guest":["Paul F. Tompkins","Nate Cordry"],
     "date":"April 3, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "false",
-      "jason": "false"
+      "jason": "true"
     }
   },
   { "episode":"108",
@@ -1181,9 +1207,10 @@
     "guest":["Seth Grahame-Smith"],
     "date":"April 17, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
+      "june": "remote",
       "jason": "true"
     }
   },
@@ -1192,9 +1219,10 @@
     "guest":["Randall Park"],
     "date":"May 1, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
+      "june": "remote",
       "jason": "true"
     }
   },
@@ -1214,6 +1242,7 @@
     "guest":["Abbi Jacobson"],
     "date":"May 29, 2015",
     "live":"true",
+    "location":["New York", "Irving Plaza"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1236,10 +1265,11 @@
     "guest":["Adam Pally"],
     "date":"June 26, 2015",
     "live":"true",
+    "location":["New York", "Irving Plaza"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"114",
@@ -1249,7 +1279,7 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
+      "june": "true",
       "jason": "true"
     }
   },
@@ -1260,8 +1290,8 @@
     "live":"false",
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "false",
+      "jason": "true"
     }
   },
   { "episode":"116",
@@ -1269,6 +1299,7 @@
     "guest":[],
     "date":"August 10, 2015",
     "live":"true",
+    "location":["San Diego", "House of Blues"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1280,6 +1311,7 @@
     "guest":[],
     "date":"August 21, 2015",
     "live":"true",
+    "location":["San Diego", "House of Blues"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1291,10 +1323,11 @@
     "guest":["Adam Scott"],
     "date":"September 4, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
-      "june": "null",
-      "jason": "null"
+      "june": "true",
+      "jason": "true"
     }
   },
   { "episode":"119",
@@ -1302,6 +1335,7 @@
     "guest":["Andy Daly"],
     "date":"September 18, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1324,6 +1358,7 @@
     "guest":["Seth Morris"],
     "date":"October 16, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1335,6 +1370,7 @@
     "guest":["Horatio Sanz"],
     "date":"October 30, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1355,7 +1391,7 @@
   },
   { "episode":"124",
     "title":"Hackers",
-    "guest":[""],
+    "guest":[],
     "date":"November 27, 2015",
     "live":"false",
     "hosts" : {
@@ -1370,6 +1406,7 @@
     "guest":["Anders Holm"],
     "date":"December 14, 2015",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1394,6 +1431,7 @@
     "guest":["Kay Cannon"],
     "date":"January 8, 2016",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "true",
@@ -1406,11 +1444,25 @@
     "guest":["Rachel Bloom", "Jessica St. Clair"],
     "date":"January 25, 2016",
     "live":"true",
+    "location":["Los Angeles", "Largo"],
     "hosts" : {
       "paul": "true",
       "june": "false",
       "jason": "true"
     },
     "id":"tt0088194"
+  },
+  { "episode":"129",
+    "title":"The Apple",
+    "guest":["Andy Richter"],
+    "date":"",
+    "live":"true",
+    "location":["Los Angeles", "Largo"],
+    "hosts" : {
+      "paul": "true",
+      "june": "true",
+      "jason": "true"
+    },
+    "id":"tt0080380"
   }
 ]
