@@ -1,3 +1,4 @@
+(function () {
 "use strict";
 d3.json('data/nameKey.json', function(error, nameKey) {
 d3.json('data/episodes-processed.json', function(error, episodes) {
@@ -121,6 +122,10 @@ d3.json('data/episodes-processed.json', function(error, episodes) {
   }
 
   chartRole('#actor-chart', ['title', 'actor']);
+  // chartRole('#director-chart', ['title', 'director']);
+  // chartRole('#writer-chart',['title', 'writer']);
+
 
 });
 });
+}());

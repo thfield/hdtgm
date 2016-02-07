@@ -8,9 +8,7 @@ let tokens = JSON.parse(fs.readFileSync('tokens.json', 'utf8'))
 
 let getlist = fs.readFileSync('get.txt', 'utf8').split('\n'),
     myapifilmsFile = 'dataMyAPIFilms.json',
-    omdbFile = 'dataOMDB.json',
-    myapifilmsFileTest = 'dataMyAPIFilmsTest.json',
-    omdbFileTest = 'dataOMDBTest.json'
+    omdbFile = 'dataOMDB.json'
 
 let myapifilmsData = JSON.parse(fs.readFileSync(myapifilmsFile, 'utf8')),
     omdbData = JSON.parse(fs.readFileSync(omdbFile, 'utf8'))
@@ -96,7 +94,7 @@ Promise.all(omdbPromises)
      results.forEach(function(item) {
        omdbData.push(JSON.parse(item))
      });
-    writeToFile(JSON.stringify(omdbData), omdbFileTest)
+    writeToFile(JSON.stringify(omdbData), omdbFile)
   })
   .catch(function(err) {
     // Will catch failure of first failed promise
@@ -109,7 +107,7 @@ Promise.all(myapifilmsPromises)
     results.forEach(function(item) {
        myapifilmsData.push(JSON.parse(item).data.movies[0])
     });
-    writeToFile(JSON.stringify(myapifilmsData), myapifilmsFileTest)
+    writeToFile(JSON.stringify(myapifilmsData), myapifilmsFile)
   })
   .catch(function(err) {
     // Will catch failure of first failed promise

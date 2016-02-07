@@ -20,6 +20,7 @@
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0",
+    "gulp-cdnizer": "^1.1.6",
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.0",
     "gulp-if": "^2.0.0",
@@ -33,5 +34,10 @@
   "dependencies": {
     "d3": "^3.5.14",
     "lodash": "^4.2.1"
+  },
+  "jshintConfig": {
+    "predef": [
+      "d3"
+    ]
   }
 }

@@ -5,14 +5,12 @@
   <meta charset="utf-8">
   <title>HDTGM Data Extravaganza</title>
 
-  <!--build:css css/styles.min.css -->
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <!--build:css css/styles.css -->
+  <link rel="stylesheet" href="css/styles.css">
   <!-- endbuild -->
 
-  <!--build:js-vendor js/vendor.min.js -->
-  <script src="js/colorbrewer.js" charset="utf-8"></script>
+
   <script src="vendor/d3.js"></script>
-  <!-- endbuild -->
 
 </head>
 
@@ -28,15 +26,14 @@
     </p>
   </div>
 	<div id="actor-chart" class=""></div>
-  <div class="about">
-    <p>
-      The same, for Directors, then Writers:
-    </p>
-  </div>
   <div id="director-chart" class=""></div>
   <div id="writer-chart" class=""></div>
+
+
   <div id="tooltip" class="hidden"><span class="value"></span></div>
 
+  <!--build:js js/app.js -->
 	<script src="js/app.js" charset="utf-8"></script>
+  <!-- endbuild -->
 </body>
 </html>

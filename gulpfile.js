@@ -11,6 +11,7 @@ var browserSync = require('browser-sync').create();
 var useref = require('gulp-useref');
 var gulpIf = require('gulp-if');
 var cssnano = require('gulp-cssnano');
+var cdnizer = require("gulp-cdnizer");
 
 // browserSync Task
 gulp.task('browserSync', function() {
@@ -21,11 +22,12 @@ gulp.task('browserSync', function() {
   })
 })
 
+// Move vendor scripts to src dir
 gulp.task('vendor', function() {
-    return gulp.src('node_modules/d3/d3.js')
-        .pipe(gulp.dest('src/vendor'))
+  var assets = ['node_modules/d3/d3.js'];
+  return gulp.src(assets)
+      .pipe(gulp.dest('src/vendor'))
 });
-
 
 // Lint Task
 gulp.task('lint', function() {
@@ -49,10 +51,31 @@ gulp.task('sass', function() {
 gulp.task('useref', function(){
   return gulp.src('src/*.html')
       .pipe(useref())
-      .pipe(gulpIf('*.js', uglify()))
-      .pipe(gulpIf('*.css', cssnano()))
+      // .pipe(gulpIf('*.js', uglify()))
+      // .pipe(gulpIf('*.css', cssnano()))
       .pipe(gulp.dest('dist'))
 });
+
+// replace local vendor assets with cdn assets
+gulp.task('cdnize', ['useref'], function(){
+  return gulp.src("./dist/index.html")
+        .pipe(cdnizer([
+            {
+                file: 'vendor/d3.js',
+                cdn: 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js'
+            }
+        ]))
+        .pipe(gulp.dest("./dist"));
+})
+
+// Build dist Task
+gulp.task('dist', ['cdnize'], function() {
+    return gulp.src('src/data/*.json')
+        .pipe(gulp.dest('dist/data'))
+});
+
+
+
 
 // Watch Files For Changes
 gulp.task('watch', ['browserSync', 'sass'], function() {
@@ -62,4 +85,5 @@ gulp.task('watch', ['browserSync', 'sass'], function() {
 });
 
 // Default Task
-gulp.task('default', ['vendor','lint', 'sass', 'watch']);
+gulp.task('default', ['sass', 'watch']);
+

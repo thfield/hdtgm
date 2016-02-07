@@ -4,23 +4,32 @@
 <head>
   <meta charset="utf-8">
   <title>HDTGM Data Extravaganza</title>
-  <link rel="stylesheet" href="css/stylesheet.css">
 
-  <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
-  <script src="bower_components/d3/d3.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js"></script>
 
 </head>
 
 <body>
   <div class="about">
     <p>
+      <a href="cabinet.html">What else might this visualization be good for?</a>
+    </p>
+  </div>
+  <div class="about">
+    <p>
       <a href="http://earwolf.com/show/how-did-this-get-made/">How Did This Get Made</a> is a podcast about movies.  Do the movies they talk about have things in common?  Let's find out.  Every actor who appears in 2 or more movies, sorted by podcast episode:
     </p>
   </div>
 	<div id="actor-chart" class=""></div>
+  <div id="director-chart" class=""></div>
+  <div id="writer-chart" class=""></div>
+
 
   <div id="tooltip" class="hidden"><span class="value"></span></div>
-	<!-- <script src="js/colorbrewer.js" charset="utf-8"></script> -->
-	<script src="js/app2.js" charset="utf-8"></script>
+
+  <script src="js/app.js"></script>
 </body>
 </html>

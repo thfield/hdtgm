@@ -1,25 +1,18 @@
-// contains ES6 code
-"use strict";
+'use strict'
+const fs = require('fs');
+const _ = require('lodash');
 
-var fs = require('fs');
+let episodesfile = 'dataEpisodes.json',
+    myapifilmsFile = 'dataMyAPIFilms.json',
+    omdbFile = 'dataOMDB.json',
+    outputFile = 'output/episodes-processed.json',
+    outputFile2 = 'output/nameKey.json'
 
-var episodesfile = 'episodes.json',
-    actorsfile = 'list_actors.json',
-    moviesfile = 'list_movies.json',
-    outputfile = 'episodeswrepeats.json',
-    newactorsfile = 'temp_actors.txt',
-    newmoviesfile = 'temp_movies.txt'
+let episodes = JSON.parse(fs.readFileSync(episodesfile, 'utf8')),
+    myapifilmsData = JSON.parse(fs.readFileSync(myapifilmsFile, 'utf8')),
+    omdbData = JSON.parse(fs.readFileSync(omdbFile, 'utf8'))
 
-var episodes = JSON.parse(fs.readFileSync(episodesfile, 'utf8')),
-    actors = JSON.parse(fs.readFileSync(actorsfile, 'utf8')),
-    movies = JSON.parse(fs.readFileSync(moviesfile, 'utf8')),
-    newactors = JSON.parse(fs.readFileSync(newactorsfile, 'utf8')),
-    newmovies = JSON.parse(fs.readFileSync(newmoviesfile, 'utf8'))
-
-actors.push(newactors.data.movies[0])
-movies.push(newmovies)
-
-var allActors = {},
+let allActors = {},
     repeatActors = {},
     moviesWithRepeatActors = {},
     allActorKey = {},
@@ -37,6 +30,17 @@ var allActors = {},
     allWriterKey = {},
     writerKey = {};
 
+
+
+function writeToFile(data, filename){
+  fs.writeFile(filename, data, function(err) {
+    if(err) {
+      console.log('error saving document', err)
+    } else {
+      console.log('The file was saved as ' + filename)
+    }
+  })
+}
 function hasDuplicates(array) {
     return (new Set(array)).size !== array.length;
 }
@@ -45,8 +49,8 @@ function unique(array){
 }
 
 episodes.forEach(function(ep, i) {
-  let amov = actors.find( movie => movie.title == ep.title ),
-      mmov = movies.find( movie => movie.Title == ep.title );
+  let amov = myapifilmsData.find( movie => movie.title == ep.title ),
+      mmov = omdbData.find( movie => movie.Title == ep.title );
 
   if (amov) {
     ep['allActors'] = amov.actors;
@@ -105,9 +109,9 @@ episodes.forEach(function(ep, i) {
 
 });
 
-var nameKey = {};
+let nameKey = {};
 function makeKeys(part, repeatRoles, allRoles, allRolesKey){
-    for (var role in allRoles) {
+    for (let role in allRoles) {
     if (part == 'writer'){
       allRoles[role]=unique(allRoles[role]);
         }
@@ -126,8 +130,8 @@ directorKey = makeKeys('director', repeatDirectors, allDirectors, allDirectorKey
 writerKey = makeKeys('writer', repeatWriters, allWriters, allWriterKey);
 
 function pushMovies(role, repeatRoles, allRoles){
-  var returnObj = {};
-  for (var role in repeatRoles) {
+  let returnObj = {};
+  for (let role in repeatRoles) {
     allRoles[role].forEach(function(movie) {
       returnObj[movie] = returnObj[movie] || [];
       returnObj[movie].push(role);
@@ -150,21 +154,5 @@ episodes.forEach(function(episode){
 });
 
 //output the file(s)
-fs.writeFile(actorsfile, JSON.stringify(actors),
-  function(err) {
-    if (err) { return console.log(err); }
-    console.log("The file was saved as", actorsfile);
-  }
-);
-fs.writeFile(moviesfile, JSON.stringify(movies),
-  function(err) {
-    if (err) { return console.log(err); }
-    console.log("The file was saved as", moviesfile);
-  }
-);
-fs.writeFile(outputfile, JSON.stringify({ episodes, nameKey }),
-  function(err) {
-    if (err) { return console.log(err); }
-    console.log("The file was saved as", outputfile);
-  }
-);
+writeToFile(JSON.stringify( episodes ), outputFile)
+writeToFile(JSON.stringify( nameKey ), outputFile2)
