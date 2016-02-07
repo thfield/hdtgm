@@ -1,3 +1,4 @@
+(function () {
 "use strict";
 d3.json('data/episodeswrepeats.json', function(error, data) {
   function chartRole(pageId, roles){
@@ -127,3 +128,4 @@ d3.json('data/episodeswrepeats.json', function(error, data) {
   chartRole('#writer-chart',['title', 'writer']);
   //TODO idea: move director/writer to single chart with color difference
 });
+}());

@@ -1,5 +1,6 @@
 'use strict'
 const fs = require('fs');
+const _ = require('lodash');
 
 let episodesfile = 'dataEpisodes.json',
     myapifilmsFile = 'dataMyAPIFilms.json',
